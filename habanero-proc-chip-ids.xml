@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto-proc-chip-ids.xml,v 1.1 2014/08/12 18:16:22 spinler Exp $ --> 
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/habanero/habanero-proc-chips-ids.xml,v 1.1 2014/09/14 14:55:13 mashak Exp $ --> 
 
 <!-- Contains the logical chip id (node and position on node) for all processors -->
 

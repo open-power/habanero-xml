@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/habanero/habanero_layout.xml,v 1.2 2014/08/25 13:11:31 mashak Exp $ -->
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/habanero/habanero_layout.xml,v 1.3 2014/09/14 16:13:16 mashak Exp $ -->
 <layout xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
 <parts xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
-	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PEX8718_PALMETTO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PCIE_X8_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PCIE_X16_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PEX8748_HABANERO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="OPNPWR_CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 </parts>
 <cards xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
-	<xi:include href="turismo_scm.xml"/>
-	<xi:include href="pcie_x8_card.xml"/>
-	<xi:include href="habanero_board.xml"/>
-	<xi:include href="ddr3_dimm_generic.xml"/>
 	<xi:include href="pcie_x16_card.xml"/>
+	<xi:include href="habanero_board.xml"/>
+	<xi:include href="turismo_scm.xml"/>
+	<xi:include href="ddr3_dimm_generic.xml"/>
+	<xi:include href="pcie_x8_card.xml"/>
 </cards>
 
 <cards-used>
-	<card-used><card-id>turismo_scm</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
-	<card-used><card-id>pcie_x8_card</card-id><ec-level>0</ec-level><ru>CRU</ru></card-used>
-	<card-used><card-id>habanero_board</card-id><ec-level>0</ec-level><ru></ru></card-used>
-	<card-used><card-id>ddr3_dimm_generic</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
 	<card-used><card-id>pcie_x16_card</card-id><ec-level>0</ec-level><ru>CRU</ru></card-used>
+	<card-used><card-id>habanero_board</card-id><ec-level>0</ec-level><ru></ru></card-used>
+	<card-used><card-id>turismo_scm</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
+	<card-used><card-id>ddr3_dimm_generic</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
+	<card-used><card-id>pcie_x8_card</card-id><ec-level>0</ec-level><ru>CRU</ru></card-used>
 </cards-used>
 <assemblies-used>
 	<assembly-used>
