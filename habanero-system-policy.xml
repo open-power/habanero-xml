@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system-policy-settings xmlns:xi="http://www.w3.org/2001/XInclude"
+  	xmlns:mrwsyspol="http://w3.ibm.com/stg/power-firmware/schema/mrwsyspol"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrwsyspol"
+    >
+
+<required-policy-settings>
+	<system-id>habanero</system-id>
+	<memory-refclock-frequency frequency-units="MHz">133</memory-refclock-frequency>
+	<processor-refclock-frequency frequency-units="MHz">133</processor-refclock-frequency>
+        <processor-refclock-frequency-khz frequency-units="KHz">133333</processor-refclock-frequency-khz>
+        <processor-refclock-receiver-termination>0x0</processor-refclock-receiver-termination>
+	<redundant-fsp>no</redundant-fsp>
+    <led-strategy>lightpath</led-strategy>
+    <boot-frequency frequency-units="MHz">2400</boot-frequency>
+
+    <!--eRepair -->
+    <x-erepair-threshold-field>1</x-erepair-threshold-field>
+    <x-erepair-threshold-mnfg>0</x-erepair-threshold-mnfg>
+    <a-erepair-threshold-field>1</a-erepair-threshold-field>
+    <a-erepair-threshold-mnfg>0</a-erepair-threshold-mnfg>
+    <dmi-erepair-threshold-field>1</dmi-erepair-threshold-field>
+    <dmi-erepair-threshold-mnfg>0</dmi-erepair-threshold-mnfg>
+
+    <!--memory -->
+    <safemode_mem_throttle_numerator_per_mba>96</safemode_mem_throttle_numerator_per_mba>
+    <safemode_mem_throttle_numerator_per_chip>32</safemode_mem_throttle_numerator_per_chip>
+    <safemode_mem_throttle_denominator>512</safemode_mem_throttle_denominator>
+    <thermal_memory_power_limit>5000</thermal_memory_power_limit>
+
+    <all_mcs_in_interleaving_group>1</all_mcs_in_interleaving_group>
+    <mss_mca_hash_mode>0</mss_mca_hash_mode>
+    <mss_mba_addr_interleave_bit>24</mss_mba_addr_interleave_bit>
+    <mss_mba_cacheline_interleave_mode>1</mss_mba_cacheline_interleave_mode>
+    <mss_prefetch_enable>1</mss_prefetch_enable>
+    <mss_cleaner_enable>1</mss_cleaner_enable>
+
+    <!-- processor -->
+    <proc_eps_table_type>2</proc_eps_table_type>
+    <proc_fabric_pump_mode>1</proc_fabric_pump_mode>
+    <proc_x_bus_width>2</proc_x_bus_width>
+	<proc_pb_frequency frequency-units="MHz">2400</proc_pb_frequency>
+	<proc_x_frequency frequency-units="MHz">4800</proc_x_frequency>
+	<proc_a_frequency frequency-units="MHz">6400</proc_a_frequency>
+	<proc_pcie_frequency frequency-units="MHz">1000</proc_pcie_frequency>
+
+        <!-- PCIE -->
+        <pcie-default-hddw-slot-count>4</pcie-default-hddw-slot-count>
+        <pcie-minimum-hddw-slot-count>4</pcie-minimum-hddw-slot-count>
+        <pcie-maximum-hddw-slot-count>8</pcie-maximum-hddw-slot-count>
+
+</required-policy-settings>
+
+<optional-policy-settings>
+	<title>System Policy Settings for Habanero</title>
+    <!-- In Mhz -->
+    <minimum-frequency>1400</minimum-frequency>
+    <nominal-frequency>3000</nominal-frequency>
+    <maximum-frequency>4000</maximum-frequency>
+    </optional-policy-settings>
+</system-policy-settings>

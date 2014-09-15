@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM_PROLOG_BEGIN_TAG                                                   -->
+<!-- This is an automatically generated prolog.                             -->
+<!--                                                                        -->
+<!-- $Source: palmetto-proc-pcie-settings.xml $                             -->
+<!--                                                                        -->
+<!-- OpenPOWER HostBoot Project                                             -->
+<!--                                                                        -->
+<!-- Contributors Listed Below - COPYRIGHT 2014                             -->
+<!-- [+] International Business Machines Corp.                              -->
+<!--                                                                        -->
+<!--                                                                        -->
+<!-- Licensed under the Apache License, Version 2.0 (the "License");        -->
+<!-- you may not use this file except in compliance with the License.       -->
+<!-- You may obtain a copy of the License at                                -->
+<!--                                                                        -->
+<!--     http://www.apache.org/licenses/LICENSE-2.0                         -->
+<!--                                                                        -->
+<!-- Unless required by applicable law or agreed to in writing, software    -->
+<!-- distributed under the License is distributed on an "AS IS" BASIS,      -->
+<!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or        -->
+<!-- implied. See the License for the specific language governing           -->
+<!-- permissions and limitations under the License.                         -->
+<!--                                                                        -->
+<!-- IBM_PROLOG_END_TAG                                                     -->
+
+<!--  $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/tuleta/tuleta-proc-pcie-settings.xml,v 1.3 2013/07/30 14:40:37 spinler Exp $ -->
+
+<proc-pcie-settings xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mrwpps="http://w3.ibm.com/stg/power-firmware/schema/mrwpps"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrwpps">
+
+    <system-id>habanero</system-id>
+
+        <!-- n0p0 -->
+        <processor-settings>
+            <target><name>pu</name><node>0</node><position>0</position></target>
+
+            <proc_pcie_iop_g3_pll_control0_iop0>0x0000086C</proc_pcie_iop_g3_pll_control0_iop0>
+            <proc_pcie_iop_g3_pll_control0_iop1>0x0000086C</proc_pcie_iop_g3_pll_control0_iop1>
+
+            <proc_pcie_iop_g2_pll_control0_iop0>0x000018F4</proc_pcie_iop_g2_pll_control0_iop0>
+            <proc_pcie_iop_g2_pll_control0_iop1>0x000018F4</proc_pcie_iop_g2_pll_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control0_iop0>0x00000146</proc_pcie_iop_pll_global_control0_iop0>
+            <proc_pcie_iop_pll_global_control0_iop1>0x00000146</proc_pcie_iop_pll_global_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control1_iop0>0x000006D7</proc_pcie_iop_pll_global_control1_iop0>
+            <proc_pcie_iop_pll_global_control1_iop1>0x000006D7</proc_pcie_iop_pll_global_control1_iop1>
+
+            <proc_pcie_iop_pcs_control0_iop0>0x00003AE8</proc_pcie_iop_pcs_control0_iop0>
+            <proc_pcie_iop_pcs_control0_iop1>0x00003AE8</proc_pcie_iop_pcs_control0_iop1>
+
+            <proc_pcie_iop_pcs_control1_iop0>0x00005CB9</proc_pcie_iop_pcs_control1_iop0>
+            <proc_pcie_iop_pcs_control1_iop1>0x00005CB9</proc_pcie_iop_pcs_control1_iop1>
+
+            <proc_pcie_iop_tx_fifo_offset_iop0>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop0>
+            <proc_pcie_iop_tx_fifo_offset_iop1>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop1>
+
+            <proc_pcie_iop_tx_rcvrdetcntl_iop0>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop0>
+            <proc_pcie_iop_tx_rcvrdetcntl_iop1>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop1>
+
+            <proc_pcie_iop_tx_bwloss1_iop0>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop0>
+            <proc_pcie_iop_tx_bwloss1_iop1>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop1>
+
+            <proc_pcie_iop_rx_vga_control2_iop0>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop0>
+            <proc_pcie_iop_rx_vga_control2_iop1>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop1>
+
+            <proc_pcie_iop_rx_peak_iop0>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop0>
+            <proc_pcie_iop_rx_peak_iop1>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop1>
+
+            <proc_pcie_iop_rx_sdl_iop0>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop0>
+            <proc_pcie_iop_rx_sdl_iop1>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop1>
+
+            <proc_pcie_iop_zcal_control_iop0>0x00000000</proc_pcie_iop_zcal_control_iop0>
+            <proc_pcie_iop_zcal_control_iop1>0x00000000</proc_pcie_iop_zcal_control_iop1>
+
+            <!-- FFE settings -->
+
+	    <phb-settings>
+                <!-- PHB0 -->
+		<phb-number>0</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>8</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>9</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>10</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>11</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>12</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>13</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>14</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>15</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+	    <phb-settings>
+       	        <!-- PHB1 -->
+		<phb-number>1</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+	</processor-settings>
+
+        <!-- n0p1 -->
+        <processor-settings>
+            <target><name>pu</name><node>0</node><position>1</position></target>
+
+            <proc_pcie_iop_g3_pll_control0_iop0>0x0000086C</proc_pcie_iop_g3_pll_control0_iop0>
+            <proc_pcie_iop_g3_pll_control0_iop1>0x0000086C</proc_pcie_iop_g3_pll_control0_iop1>
+
+            <proc_pcie_iop_g2_pll_control0_iop0>0x000018F4</proc_pcie_iop_g2_pll_control0_iop0>
+            <proc_pcie_iop_g2_pll_control0_iop1>0x000018F4</proc_pcie_iop_g2_pll_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control0_iop0>0x00000146</proc_pcie_iop_pll_global_control0_iop0>
+            <proc_pcie_iop_pll_global_control0_iop1>0x00000146</proc_pcie_iop_pll_global_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control1_iop0>0x000006D7</proc_pcie_iop_pll_global_control1_iop0>
+            <proc_pcie_iop_pll_global_control1_iop1>0x000006D7</proc_pcie_iop_pll_global_control1_iop1>
+
+            <proc_pcie_iop_pcs_control0_iop0>0x00003AE8</proc_pcie_iop_pcs_control0_iop0>
+            <proc_pcie_iop_pcs_control0_iop1>0x00003AE8</proc_pcie_iop_pcs_control0_iop1>
+
+            <proc_pcie_iop_pcs_control1_iop0>0x00005CB9</proc_pcie_iop_pcs_control1_iop0>
+            <proc_pcie_iop_pcs_control1_iop1>0x00005CB9</proc_pcie_iop_pcs_control1_iop1>
+
+            <proc_pcie_iop_tx_fifo_offset_iop0>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop0>
+            <proc_pcie_iop_tx_fifo_offset_iop1>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop1>
+
+            <proc_pcie_iop_tx_rcvrdetcntl_iop0>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop0>
+            <proc_pcie_iop_tx_rcvrdetcntl_iop1>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop1>
+
+            <proc_pcie_iop_tx_bwloss1_iop0>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop0>
+            <proc_pcie_iop_tx_bwloss1_iop1>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop1>
+
+            <proc_pcie_iop_rx_vga_control2_iop0>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop0>
+            <proc_pcie_iop_rx_vga_control2_iop1>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop1>
+
+            <proc_pcie_iop_rx_peak_iop0>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop0>
+            <proc_pcie_iop_rx_peak_iop1>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop1>
+
+            <proc_pcie_iop_rx_sdl_iop0>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop0>
+            <proc_pcie_iop_rx_sdl_iop1>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop1>
+
+            <proc_pcie_iop_zcal_control_iop0>0x00000000</proc_pcie_iop_zcal_control_iop0>
+            <proc_pcie_iop_zcal_control_iop1>0x00000000</proc_pcie_iop_zcal_control_iop1>
+
+            <!-- FFE settings -->
+
+	    <phb-settings>
+                <!-- PHB0 -->
+		<phb-number>0</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>8</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>9</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>10</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>11</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>12</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>13</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>14</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>15</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+	    <phb-settings>
+       	        <!-- PHB1 -->
+		<phb-number>1</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x8</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x6</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x6</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+        </processor-settings>
+
+        <!-- n0p2 -->
+        <processor-settings>
+            <target><name>pu</name><node>0</node><position>2</position></target>
+
+            <proc_pcie_iop_g3_pll_control0_iop0>0x0000086C</proc_pcie_iop_g3_pll_control0_iop0>
+            <proc_pcie_iop_g3_pll_control0_iop1>0x0000086C</proc_pcie_iop_g3_pll_control0_iop1>
+
+            <proc_pcie_iop_g2_pll_control0_iop0>0x000018F4</proc_pcie_iop_g2_pll_control0_iop0>
+            <proc_pcie_iop_g2_pll_control0_iop1>0x000018F4</proc_pcie_iop_g2_pll_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control0_iop0>0x00000146</proc_pcie_iop_pll_global_control0_iop0>
+            <proc_pcie_iop_pll_global_control0_iop1>0x00000146</proc_pcie_iop_pll_global_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control1_iop0>0x000006D7</proc_pcie_iop_pll_global_control1_iop0>
+            <proc_pcie_iop_pll_global_control1_iop1>0x000006D7</proc_pcie_iop_pll_global_control1_iop1>
+
+            <proc_pcie_iop_pcs_control0_iop0>0x00003AE8</proc_pcie_iop_pcs_control0_iop0>
+            <proc_pcie_iop_pcs_control0_iop1>0x00003AE8</proc_pcie_iop_pcs_control0_iop1>
+
+            <proc_pcie_iop_pcs_control1_iop0>0x00005CB9</proc_pcie_iop_pcs_control1_iop0>
+            <proc_pcie_iop_pcs_control1_iop1>0x00005CB9</proc_pcie_iop_pcs_control1_iop1>
+
+            <proc_pcie_iop_tx_fifo_offset_iop0>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop0>
+            <proc_pcie_iop_tx_fifo_offset_iop1>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop1>
+
+            <proc_pcie_iop_tx_rcvrdetcntl_iop0>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop0>
+            <proc_pcie_iop_tx_rcvrdetcntl_iop1>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop1>
+
+            <proc_pcie_iop_tx_bwloss1_iop0>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop0>
+            <proc_pcie_iop_tx_bwloss1_iop1>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop1>
+
+            <proc_pcie_iop_rx_vga_control2_iop0>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop0>
+            <proc_pcie_iop_rx_vga_control2_iop1>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop1>
+
+            <proc_pcie_iop_rx_peak_iop0>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop0>
+            <proc_pcie_iop_rx_peak_iop1>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop1>
+
+            <proc_pcie_iop_rx_sdl_iop0>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop0>
+            <proc_pcie_iop_rx_sdl_iop1>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop1>
+
+            <proc_pcie_iop_zcal_control_iop0>0x00000000</proc_pcie_iop_zcal_control_iop0>
+            <proc_pcie_iop_zcal_control_iop1>0x00000000</proc_pcie_iop_zcal_control_iop1>
+
+            <!-- FFE settings -->
+
+	    <phb-settings>
+                <!-- PHB0 -->
+		<phb-number>0</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>8</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>9</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>10</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>11</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>12</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>13</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>14</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>15</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+	    <phb-settings>
+       	        <!-- PHB1 -->
+		<phb-number>1</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+        </processor-settings>
+
+        <!-- n0p3 -->
+        <processor-settings>
+            <target><name>pu</name><node>0</node><position>3</position></target>
+
+            <proc_pcie_iop_g3_pll_control0_iop0>0x0000086C</proc_pcie_iop_g3_pll_control0_iop0>
+            <proc_pcie_iop_g3_pll_control0_iop1>0x0000086C</proc_pcie_iop_g3_pll_control0_iop1>
+
+            <proc_pcie_iop_g2_pll_control0_iop0>0x000018F4</proc_pcie_iop_g2_pll_control0_iop0>
+            <proc_pcie_iop_g2_pll_control0_iop1>0x000018F4</proc_pcie_iop_g2_pll_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control0_iop0>0x00000146</proc_pcie_iop_pll_global_control0_iop0>
+            <proc_pcie_iop_pll_global_control0_iop1>0x00000146</proc_pcie_iop_pll_global_control0_iop1>
+
+            <proc_pcie_iop_pll_global_control1_iop0>0x000006D7</proc_pcie_iop_pll_global_control1_iop0>
+            <proc_pcie_iop_pll_global_control1_iop1>0x000006D7</proc_pcie_iop_pll_global_control1_iop1>
+
+            <proc_pcie_iop_pcs_control0_iop0>0x00003AE8</proc_pcie_iop_pcs_control0_iop0>
+            <proc_pcie_iop_pcs_control0_iop1>0x00003AE8</proc_pcie_iop_pcs_control0_iop1>
+
+            <proc_pcie_iop_pcs_control1_iop0>0x00005CB9</proc_pcie_iop_pcs_control1_iop0>
+            <proc_pcie_iop_pcs_control1_iop1>0x00005CB9</proc_pcie_iop_pcs_control1_iop1>
+
+            <proc_pcie_iop_tx_fifo_offset_iop0>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop0>
+            <proc_pcie_iop_tx_fifo_offset_iop1>0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294,0x00004294</proc_pcie_iop_tx_fifo_offset_iop1>
+
+            <proc_pcie_iop_tx_rcvrdetcntl_iop0>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop0>
+            <proc_pcie_iop_tx_rcvrdetcntl_iop1>0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151,0x00002151</proc_pcie_iop_tx_rcvrdetcntl_iop1>
+
+            <proc_pcie_iop_tx_bwloss1_iop0>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop0>
+            <proc_pcie_iop_tx_bwloss1_iop1>0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000</proc_pcie_iop_tx_bwloss1_iop1>
+
+            <proc_pcie_iop_rx_vga_control2_iop0>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop0>
+            <proc_pcie_iop_rx_vga_control2_iop1>0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451,0x00009451</proc_pcie_iop_rx_vga_control2_iop1>
+
+            <proc_pcie_iop_rx_peak_iop0>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop0>
+            <proc_pcie_iop_rx_peak_iop1>0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8,0x00000FF8</proc_pcie_iop_rx_peak_iop1>
+
+            <proc_pcie_iop_rx_sdl_iop0>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop0>
+            <proc_pcie_iop_rx_sdl_iop1>0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A,0x0000294A</proc_pcie_iop_rx_sdl_iop1>
+
+            <proc_pcie_iop_zcal_control_iop0>0x00000000</proc_pcie_iop_zcal_control_iop0>
+            <proc_pcie_iop_zcal_control_iop1>0x00000000</proc_pcie_iop_zcal_control_iop1>
+
+            <!-- FFE settings -->
+
+	    <phb-settings>
+                <!-- PHB0 -->
+		<phb-number>0</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>8</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>9</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>10</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>11</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>12</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>13</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>14</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>15</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+	    <phb-settings>
+       	        <!-- PHB1 -->
+		<phb-number>1</phb-number>
+		    <lane-settings>
+			<lane-number>0</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>1</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>2</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>3</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>4</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>5</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>6</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+		    <lane-settings>
+			<lane-number>7</lane-number>
+			<equalization-setting><type>up_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_tx_preset</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>up_rx_hint</type><value>0x7</value></equalization-setting>
+			<equalization-setting><type>dn_rx_hint</type><value>0x7</value></equalization-setting>
+		    </lane-settings>
+	    </phb-settings>
+        </processor-settings>
+
+</proc-pcie-settings>

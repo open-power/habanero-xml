@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto-proc-chip-ids.xml,v 1.1 2014/08/12 18:16:22 spinler Exp $ --> 
+
+<!-- Contains the logical chip id (node and position on node) for all processors -->
+
+<proc-chip-ids xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:mrwpchid="http://w3.ibm.com/stg/power-firmware/schema/mrwpchid"
+      xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrwpchid">
+
+    <proc-chip-id>
+        <target><name>pu</name><node>0</node><position>0</position></target>
+        <chip-id><node>0</node><position>0</position></chip-id>
+    </proc-chip-id>
+
+</proc-chip-ids>

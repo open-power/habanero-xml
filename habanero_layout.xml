@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/habanero/habanero_layout.xml,v 1.2 2014/08/25 13:11:31 mashak Exp $ -->
+<layout xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
+<parts xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
+	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PEX8718_PALMETTO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCIE_X8_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCIE_X16_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+</parts>
+<cards xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
+	<xi:include href="turismo_scm.xml"/>
+	<xi:include href="pcie_x8_card.xml"/>
+	<xi:include href="habanero_board.xml"/>
+	<xi:include href="ddr3_dimm_generic.xml"/>
+	<xi:include href="pcie_x16_card.xml"/>
+</cards>
+
+<cards-used>
+	<card-used><card-id>turismo_scm</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
+	<card-used><card-id>pcie_x8_card</card-id><ec-level>0</ec-level><ru>CRU</ru></card-used>
+	<card-used><card-id>habanero_board</card-id><ec-level>0</ec-level><ru></ru></card-used>
+	<card-used><card-id>ddr3_dimm_generic</card-id><ec-level>0</ec-level><ru>FRU</ru></card-used>
+	<card-used><card-id>pcie_x16_card</card-id><ec-level>0</ec-level><ru>CRU</ru></card-used>
+</cards-used>
+<assemblies-used>
+	<assembly-used>
+		<location>Ufcs</location><position>0</position><assembly-id>habanero_board-assembly</assembly-id>
+	</assembly-used>
+</assemblies-used>
+<assemblies>
+	<assembly>
+	<id>habanero_board-assembly</id>
+	<description>Assembly for habanero_board card</description>
+	<plug>
+		<card-id>habanero_board</card-id><position>0</position><location></location>
+		<connection-point><parent></parent><child></child></connection-point>
+		<plug>
+			<card-id>pcie_x8_card</card-id><position>0</position><location absolute="no">ignore</location>
+			<connection-point><parent>JSLOT1</parent><child>JSLOT</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>pcie_x16_card</card-id><position>0</position><location absolute="ignore"></location>
+			<connection-point><parent>JSLOT0</parent><child>JSLOT</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>0</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A1</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>1</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C1</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>2</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B1</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>3</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D1</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>4</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A2</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>5</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C2</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>6</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B2</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>7</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D2</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>8</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B3</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>9</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A4</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>10</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B4</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>11</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C4</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>12</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D3</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>13</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C3</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>14</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A3</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>15</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D4</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>16</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B5</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>17</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A5</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>18</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D6</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>19</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C6</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>20</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B6</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>21</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A6</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>22</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C5</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>23</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D5</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>24</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D8</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>25</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B8</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>26</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_B7</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>27</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C8</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>28</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_C7</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>29</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_D7</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>30</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A8</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>ddr3_dimm_generic</card-id><position>31</position><location absolute="ignore"></location>
+			<connection-point><parent>JDIMM_A7</parent><child>UCONN</child></connection-point>
+		</plug>
+		<plug>
+			<card-id>turismo_scm</card-id><position>0</position><location absolute="ignore"></location>
+			<connection-point><parent>JSCM</parent><child>JBSM</child></connection-point>
+		</plug>
+	</plug>
+	</assembly>
+</assemblies>
+
+<cables>
+</cables>
+</layout>

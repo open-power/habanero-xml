@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto-pm-settings.xml,v 1.1 2014/08/12 18:44:42 spinler Exp $ -->
+
+<!-- Processor Power Management Settings -->
+
+<proc-pm-settings xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mrwpm="http://w3.ibm.com/stg/power-firmware/schema/mrwpm"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrwpm" >
+
+    <processor-settings>
+
+        <target><name>pu</name><node>0</node><position>0</position></target>
+
+        <pm_undervolting_frq_minimum frequency-units="MHz">0</pm_undervolting_frq_minimum>
+    	<pm_undervolting_frq_maximum frequency-units="MHz">0</pm_undervolting_frq_maximum>
+    	<pm_spivid_port_enable>0x4</pm_spivid_port_enable>
+	    <pm_apss_chip_select>0x00</pm_apss_chip_select>
+    	<pm_pbax_nodeid>0x0</pm_pbax_nodeid>
+    	<pm_pbax_chipid>0x0</pm_pbax_chipid>
+    	<pm_pbax_brdcst_id_vector>0x0</pm_pbax_brdcst_id_vector>
+    	<pm_sleep_entry>0x0</pm_sleep_entry>
+    	<pm_sleep_exit>0x0</pm_sleep_exit>
+    	<pm_sleep_type>0x0</pm_sleep_type>
+        <pm_winkle_entry>0x0</pm_winkle_entry>
+    	<pm_winkle_exit>0x0</pm_winkle_exit>
+    	<pm_winkle_type>0x0</pm_winkle_type>	
+
+    </processor-settings>
+
+</proc-pm-settings>
+

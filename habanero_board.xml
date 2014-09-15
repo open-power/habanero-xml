@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/habanero/habanero_board.xml,v 1.2 2014/08/25 13:11:30 mashak Exp $ --><card xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
+
+<id>habanero_board</id>
+<card-type>planar</card-type>
+<description></description>
+
+<parts-used>
+	<part-used><part-id>VRD_NOI2C</part-id></part-used>
+	<part-used><part-id>PGOOD_LAYERBRIDGE</part-id></part-used>
+	<part-used><part-id>PEX8748_TULETA</part-id></part-used>
+	<part-used><part-id>PCA9538</part-id></part-used>
+	<part-used><part-id>OPNPWR_CENTAUR</part-id><ec-level>DD1</ec-level></part-used>
+</parts-used>
+<connectors-used>
+	<connector><part-id>DDR3 DIMM</part-id></connector>
+	<connector><part-id>TURISMO_SOCKET</part-id></connector>
+	<connector><part-id>PCIE_X8_SLOT</part-id></connector>
+	<connector><part-id>PCIE_X16_SLOT</part-id></connector>
+</connectors-used>
+<part-instances>
+	<part-instance><id>UCENTAUR1</id><part-id>OPNPWR_CENTAUR</part-id><position>0</position><ecmd>yes</ecmd><ec-level>DD1</ec-level></part-instance>
+	<part-instance><id>U279</id><part-id>PCA9538</part-id><position>0</position></part-instance>
+	<part-instance><id>UVMEM</id><part-id>VRD_NOI2C</part-id><position>0</position><number-of-phases>1</number-of-phases><voltage-out>1.35</voltage-out><power-efficiency>90</power-efficiency></part-instance>
+	<part-instance><id>U4</id><part-id>PGOOD_LAYERBRIDGE</part-id><position>0</position></part-instance>
+	<part-instance><id>U0</id><part-id>PEX8748_TULETA</part-id><position>0</position></part-instance>
+	<part-instance><id>UCENTAUR2</id><part-id>OPNPWR_CENTAUR</part-id><position>1</position><ecmd>yes</ecmd><ec-level>DD1</ec-level></part-instance>
+	<part-instance><id>UCENTAUR3</id><part-id>OPNPWR_CENTAUR</part-id><position>2</position><ecmd>yes</ecmd><ec-level>DD1</ec-level></part-instance>
+	<part-instance><id>UCENTAUR4</id><part-id>OPNPWR_CENTAUR</part-id><position>3</position><ecmd>yes</ecmd><ec-level>DD1</ec-level></part-instance>
+</part-instances>
+<connector-instances>
+	<connector-instance><id>JSCM</id><connector-id>TURISMO_SOCKET</connector-id><position>0</position></connector-instance>
+	<connector-instance><id>JDIMM_A1</id><connector-id>DDR3 DIMM</connector-id><position>0</position></connector-instance>
+	<connector-instance><id>JDIMM_C1</id><connector-id>DDR3 DIMM</connector-id><position>1</position></connector-instance>
+	<connector-instance><id>JDIMM_B1</id><connector-id>DDR3 DIMM</connector-id><position>2</position></connector-instance>
+	<connector-instance><id>JDIMM_D1</id><connector-id>DDR3 DIMM</connector-id><position>3</position></connector-instance>
+	<connector-instance><id>JSLOT1</id><connector-id>PCIE_X8_SLOT</connector-id><location>ignore</location><position>0</position></connector-instance>
+	<connector-instance><id>JSLOT0</id><connector-id>PCIE_X16_SLOT</connector-id><position>0</position></connector-instance>
+	<connector-instance><id>JDIMM_A2</id><connector-id>DDR3 DIMM</connector-id><position>4</position></connector-instance>
+	<connector-instance><id>JDIMM_C2</id><connector-id>DDR3 DIMM</connector-id><position>5</position></connector-instance>
+	<connector-instance><id>JDIMM_B2</id><connector-id>DDR3 DIMM</connector-id><position>6</position></connector-instance>
+	<connector-instance><id>JDIMM_D2</id><connector-id>DDR3 DIMM</connector-id><position>7</position></connector-instance>
+	<connector-instance><id>JDIMM_B3</id><connector-id>DDR3 DIMM</connector-id><position>8</position></connector-instance>
+	<connector-instance><id>JDIMM_A4</id><connector-id>DDR3 DIMM</connector-id><position>9</position></connector-instance>
+	<connector-instance><id>JDIMM_B4</id><connector-id>DDR3 DIMM</connector-id><position>10</position></connector-instance>
+	<connector-instance><id>JDIMM_C4</id><connector-id>DDR3 DIMM</connector-id><position>11</position></connector-instance>
+	<connector-instance><id>JDIMM_D3</id><connector-id>DDR3 DIMM</connector-id><position>12</position></connector-instance>
+	<connector-instance><id>JDIMM_C3</id><connector-id>DDR3 DIMM</connector-id><position>13</position></connector-instance>
+	<connector-instance><id>JDIMM_A3</id><connector-id>DDR3 DIMM</connector-id><position>14</position></connector-instance>
+	<connector-instance><id>JDIMM_D4</id><connector-id>DDR3 DIMM</connector-id><position>15</position></connector-instance>
+	<connector-instance><id>JDIMM_B5</id><connector-id>DDR3 DIMM</connector-id><position>16</position></connector-instance>
+	<connector-instance><id>JDIMM_A5</id><connector-id>DDR3 DIMM</connector-id><position>17</position></connector-instance>
+	<connector-instance><id>JDIMM_D6</id><connector-id>DDR3 DIMM</connector-id><position>18</position></connector-instance>
+	<connector-instance><id>JDIMM_C6</id><connector-id>DDR3 DIMM</connector-id><position>19</position></connector-instance>
+	<connector-instance><id>JDIMM_B6</id><connector-id>DDR3 DIMM</connector-id><position>20</position></connector-instance>
+	<connector-instance><id>JDIMM_A6</id><connector-id>DDR3 DIMM</connector-id><position>21</position></connector-instance>
+	<connector-instance><id>JDIMM_C5</id><connector-id>DDR3 DIMM</connector-id><position>22</position></connector-instance>
+	<connector-instance><id>JDIMM_D5</id><connector-id>DDR3 DIMM</connector-id><position>23</position></connector-instance>
+	<connector-instance><id>JDIMM_D8</id><connector-id>DDR3 DIMM</connector-id><position>24</position></connector-instance>
+	<connector-instance><id>JDIMM_B8</id><connector-id>DDR3 DIMM</connector-id><position>25</position></connector-instance>
+	<connector-instance><id>JDIMM_B7</id><connector-id>DDR3 DIMM</connector-id><position>26</position></connector-instance>
+	<connector-instance><id>JDIMM_C8</id><connector-id>DDR3 DIMM</connector-id><position>27</position></connector-instance>
+	<connector-instance><id>JDIMM_C7</id><connector-id>DDR3 DIMM</connector-id><position>28</position></connector-instance>
+	<connector-instance><id>JDIMM_D7</id><connector-id>DDR3 DIMM</connector-id><position>29</position></connector-instance>
+	<connector-instance><id>JDIMM_A8</id><connector-id>DDR3 DIMM</connector-id><position>30</position></connector-instance>
+	<connector-instance><id>JDIMM_A7</id><connector-id>DDR3 DIMM</connector-id><position>31</position></connector-instance>
+</connector-instances>
+<busses>
+<dmis>
+	<dmi>
+		<id>dmi5</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>DMI_M0D</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DMI</unit-name></endpoint>
+	</dmi>
+	<dmi>
+		<id>dmi8</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>DMI_M1C</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DMI</unit-name></endpoint>
+	</dmi>
+	<dmi>
+		<id>dmi11</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>DMI_M1D</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DMI</unit-name></endpoint>
+	</dmi>
+	<dmi>
+		<id>dmi2</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>DMI_M0C</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DMI</unit-name></endpoint>
+	</dmi>
+</dmis>
+<ddrs>
+	<ddr>
+		<id>ddr36</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTB_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B4</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr8</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTB_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr8</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTC_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C2</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr70</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTD_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D7</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr55</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C5</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr67</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C7</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr47</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTD_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D3</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr46</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C3</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr45</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTD_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D4</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr40</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTB_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B3</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr62</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTB_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B5</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr43</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTA_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A3</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr60</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTC_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C6</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr5</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr68</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTC_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C8</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr11</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTD_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr14</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTD_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D2</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr76</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTB_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B8</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr5</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTA_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A2</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr78</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTA_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A7</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr53</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTD_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D6</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr48</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTC_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C4</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr75</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTA_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A8</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr69</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTD_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D8</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr52</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTD_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D5</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr73</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>DDR3_PORTB_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B7</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr2</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTA_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr50</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTA_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A5</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr57</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTB_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B6</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr56</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>DDR3_PORTA_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A6</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr41</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>DDR3_PORTA_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A4</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+	<ddr>
+		<id>ddr11</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>DDR3_PORTB_SLOT1</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B2</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
+</ddrs>
+<pcies>
+	<pcie>
+		<id>pcie17</id>
+		<pcie-lane-swap-bits>000</pcie-lane-swap-bits>
+		<pci-lsi>Yes</pci-lsi>
+		<pci-card-size>FHFL</pci-card-size>
+		<pci-gen>3</pci-gen>
+		<pcie-capi>Yes</pcie-capi>
+		<pci-slot-index>0</pci-slot-index>
+		<pcie-hot-plug>No</pcie-hot-plug>
+		<pci-is-slot>Yes</pci-is-slot>
+		<default-power-consumption>30</default-power-consumption>
+		<default-pcie-cooling-type>1</default-pcie-cooling-type>
+		<pci-width>16</pci-width>
+		<pcie-lane-reversal-bits>000</pcie-lane-reversal-bits>
+		<hx-logical-device-select>0</hx-logical-device-select>
+		<source><connector-instance-id>JSLOT0</connector-instance-id><pin-name>PCIE_X16</pin-name></source>
+		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE0</pin-name></endpoint>
+	</pcie>
+	<pcie>
+		<id>pcie20</id>
+		<pcie-lane-swap-bits>000</pcie-lane-swap-bits>
+		<pci-lsi>Yes</pci-lsi>
+		<pci-card-size>FHFL</pci-card-size>
+		<pci-gen>3</pci-gen>
+		<pcie-capi>Yes</pcie-capi>
+		<pci-slot-index>0</pci-slot-index>
+		<pcie-hot-plug>No</pcie-hot-plug>
+		<pci-is-slot>Yes</pci-is-slot>
+		<default-power-consumption>30</default-power-consumption>
+		<default-pcie-cooling-type>1</default-pcie-cooling-type>
+		<pci-width>8</pci-width>
+		<pcie-lane-reversal-bits>000</pcie-lane-reversal-bits>
+		<hx-logical-device-select>0</hx-logical-device-select>
+		<source><connector-instance-id>JSLOT1</connector-instance-id><pin-name>PCIE_X8</pin-name></source>
+		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE1</pin-name></endpoint>
+	</pcie>
+	<pcie>
+		<id>pcie2</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE1</pin-name></source>
+		<endpoint><part-instance-id>U0</part-instance-id><unit-name>INBOUND_X8</unit-name></endpoint>
+	</pcie>
+</pcies>
+<gpios>
+	<gpio>
+		<id>gpio8</id>
+		<source><part-instance-id>U4</part-instance-id><unit-name>PGOOD</unit-name></source>
+		<endpoint><part-instance-id>UVMEM</part-instance-id><unit-name>ENABLE</unit-name></endpoint>
+	</gpio>
+	<gpio>
+		<id>gpio5</id>
+		<source><part-instance-id>U279</part-instance-id><unit-name>IO0</unit-name></source>
+		<endpoint><part-instance-id>U4</part-instance-id><unit-name>GPIO</unit-name></endpoint>
+	</gpio>
+</gpios>
+<powers>
+	<power>
+		<id>power2</id>
+		<source><part-instance-id>UVMEM</part-instance-id><unit-name>VOUT</unit-name></source>
+		<endpoint><part-instance-id>UCENTAUR1</part-instance-id><unit-name>VMEM</unit-name></endpoint>
+	</power>
+</powers>
+<i2cs>
+	<i2c>
+		<id>i2c29</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D1</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c71</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D7</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c34</id>
+		<source><connector-instance-id>JDIMM_B4</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c51</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D5</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c59</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D6</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c26</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C2</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c54</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<speed>400</speed>
+		<address>0xA8</address>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B5</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c42</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c20</id>
+		<source><connector-instance-id>JDIMM_B2</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c77</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D8</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c23</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<speed>400</speed>
+		<address>0xA4</address>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A1</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c38</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xA4</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c29</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<speed>400</speed>
+		<address>0xA8</address>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B1</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c11</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<speed>400</speed>
+		<address>0x40</address>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><part-instance-id>U279</part-instance-id><unit-name>I2C</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c80</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xA4</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A7</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c49</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C5</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c74</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C7</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c32</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D2</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c23</id>
+		<source><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C1</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c17</id>
+		<source><connector-instance-id>JDIMM_A2</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR1</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c61</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<speed>400</speed>
+		<address>0xA4</address>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_A5</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c66</id>
+		<source><connector-instance-id>JDIMM_A8</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c72</id>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C8</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c79</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xA8</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B7</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c58</id>
+		<source><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C6</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c39</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c37</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xA8</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_B3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c64</id>
+		<source><connector-instance-id>JDIMM_A6</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c44</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_C4</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c35</id>
+		<source><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM_D4</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c33</id>
+		<source><connector-instance-id>JDIMM_A4</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR2</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c63</id>
+		<source><connector-instance-id>JDIMM_B6</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR3</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c65</id>
+		<source><connector-instance-id>JDIMM_B8</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR4</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></endpoint>
+	</i2c>
+</i2cs>
+<fsis>
+	<fsi>
+		<id>fsi86</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>FSI0_CENT6</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR3</part-instance-id><unit-name>FSI_SLAVE0</unit-name></endpoint>
+	</fsi>
+	<fsi>
+		<id>fsi92</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>FSI0_CENT7</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR4</part-instance-id><unit-name>FSI_SLAVE0</unit-name></endpoint>
+	</fsi>
+	<fsi>
+		<id>fsi83</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>FSI0_CENT3</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR2</part-instance-id><unit-name>FSI_SLAVE0</unit-name></endpoint>
+	</fsi>
+	<fsi>
+		<id>fsi35</id>
+		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>FSI0_CENT2</pin-name></source>
+		<endpoint><part-instance-id>UCENTAUR1</part-instance-id><unit-name>FSI_SLAVE0</unit-name></endpoint>
+	</fsi>
+</fsis>
+</busses>
+</card>
