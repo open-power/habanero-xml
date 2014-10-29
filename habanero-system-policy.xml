@@ -57,5 +57,24 @@
     <minimum-frequency>1400</minimum-frequency>
     <nominal-frequency>3000</nominal-frequency>
     <maximum-frequency>4000</maximum-frequency>
+    <open_power>
+        <open_power_turbo_mode_supported>yes</open_power_turbo_mode_supported>
+		<open_power_n_plus_one_bulk_power_limit_watts>2400</open_power_n_plus_one_bulk_power_limit_watts>
+		<open_power_n_plus_one_max_mem_power_watts>500</open_power_n_plus_one_max_mem_power_watts>
+		<open_power_n_bulk_power_limit_watts>1200</open_power_n_bulk_power_limit_watts>
+		<open_power_n_max_mem_power_watts>500</open_power_n_max_mem_power_watts>
+		<open_power_regulator_efficiency_factor>0.85</open_power_regulator_efficiency_factor>
+		<open_power_min_power_cap_watts>1100</open_power_min_power_cap_watts>
+		<open_power_min_mem_utilization_throttling>5</open_power_min_mem_utilization_throttling>
+		<open_power_proc_dvfs_temp_deg_c>85</open_power_proc_dvfs_temp_deg_c>
+		<open_power_proc_error_temp_deg_c>95</open_power_proc_error_temp_deg_c>
+		<open_power_proc_read_timeout_sec>5</open_power_proc_read_timeout_sec>
+		<open_power_memctrl_throttle_temp_deg_c>89</open_power_memctrl_throttle_temp_deg_c>
+		<open_power_memctrl_error_temp_deg_c>99</open_power_memctrl_error_temp_deg_c>
+		<open_power_memctrl_read_timeout_sec>30</open_power_memctrl_read_timeout_sec>
+		<open_power_dimm_throttle_temp_deg_c>79</open_power_dimm_throttle_temp_deg_c>
+		<open_power_dimm_error_temp_deg_c>96</open_power_dimm_error_temp_deg_c>
+		<open_power_dimm_read_timeout_sec>30</open_power_dimm_read_timeout_sec>
+	</open_power>
     </optional-policy-settings>
 </system-policy-settings>
