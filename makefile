@@ -51,7 +51,8 @@ xxx-cent-vrds.xml \
 xxx-power.xml \
 xxx-power-busses.xml \
 xxx-mru-ids.xml \
-xxx-location-codes.xml
+xxx-location-codes.xml \
+xxx-proc-spi-busses.xml
 
 NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml ${OUTPUT_PATH}/%-pm-settings.xml ${OUTPUT_PATH}/%-proc-pcie-settings.xml
 .SECONDARY:
@@ -70,7 +71,7 @@ clean:
 $(patsubst clean,,$(MAKECMDGOALS)): $(patsubst %,%.done,$(MAKECMDGOALS))
 	@echo "=== MRW for $(MAKECMDGOALS) was built ==="
 
-%.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml ${NON_BUILTS}
+%.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml %-proc-spi-busses.xml ${NON_BUILTS}
 	touch $@
 
 ${OUTPUT_PATH}/%.xml:
@@ -183,3 +184,12 @@ ${OUTPUT_PATH}/%.xml:
 	@echo "===== Generating ${patsubst %.xml,%.html,${@}} ====="
 	xsltproc --output ${patsubst %.xml,%.html,${@}} --stringparam system ${patsubst %-pcie-busses.xml,%,${<}} ${XSL_PATH}/mrwMruIds.xsl $@
 	cp ${patsubst %.xml,%.html,${@}} ${OUTPUT_PATH}/
+
+%-proc-spi-busses.xml : %-targets.xml
+	@echo "===== Generating $@ ====="
+	${PARSER_PATH}/mrwProcSpiParser --in ${patsubst %-targets.xml,%-full.xml,${<}} --out $@ --targets $<
+	cp $@ ${OUTPUT_PATH}/
+	@echo "===== Generating ${patsubst %.xml,%.html,${@}} ====="
+	xsltproc --output ${patsubst %.xml,%.html,${@}} --stringparam system ${patsubst %-targets.xml,%,${<}} ${XSL_PATH}/mrwProcSpi.xsl $@
+	cp ${patsubst %.xml,%.html,${@}} ${OUTPUT_PATH}/
+
