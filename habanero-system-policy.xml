@@ -8,8 +8,8 @@
 	<system-id>habanero</system-id>
 	<memory-refclock-frequency frequency-units="MHz">133</memory-refclock-frequency>
 	<processor-refclock-frequency frequency-units="MHz">133</processor-refclock-frequency>
-        <processor-refclock-frequency-khz frequency-units="KHz">133333</processor-refclock-frequency-khz>
-        <processor-refclock-receiver-termination>0x0</processor-refclock-receiver-termination>
+    <processor-refclock-frequency-khz frequency-units="KHz">133333</processor-refclock-frequency-khz>
+    <processor-refclock-receiver-termination>0x0</processor-refclock-receiver-termination>
 	<redundant-fsp>no</redundant-fsp>
     <led-strategy>lightpath</led-strategy>
     <boot-frequency frequency-units="MHz">2400</boot-frequency>
@@ -23,12 +23,31 @@
     <dmi-erepair-threshold-mnfg>0</dmi-erepair-threshold-mnfg>
 
     <!--memory -->
-    <safemode_mem_throttle_numerator_per_mba>96</safemode_mem_throttle_numerator_per_mba>
+    <safemode_mem_throttle_numerator_per_mba>32</safemode_mem_throttle_numerator_per_mba>
     <safemode_mem_throttle_numerator_per_chip>32</safemode_mem_throttle_numerator_per_chip>
-    <safemode_mem_throttle_denominator>512</safemode_mem_throttle_denominator>
-    <thermal_memory_power_limit>5000</thermal_memory_power_limit>
+    <thermal_memory_power_limit>1500</thermal_memory_power_limit>
+    <mem_throttle_denominator>512</mem_throttle_denominator>
+    <max_dram_databus_util>5625</max_dram_databus_util>
+    <dimm_power_curve_percent_uplift>0</dimm_power_curve_percent_uplift>
+    <dimm_power_curve_percent_uplift_idle>0</dimm_power_curve_percent_uplift_idle>
+    <mss_draminit_reset_disable>0</mss_draminit_reset_disable>
 
-    <all_mcs_in_interleaving_group>1</all_mcs_in_interleaving_group>
+    <mss_interleave_enables>
+	    <mss_interleave_enable>0x0F</mss_interleave_enable>
+	</mss_interleave_enables>
+
+    <all_mcs_in_interleaving_groups>
+	    <all_mcs_in_interleaving_group>1</all_mcs_in_interleaving_group>
+	</all_mcs_in_interleaving_groups>
+
+	<strict_mba_plug_rule_checking>true</strict_mba_plug_rule_checking>
+	<mba_cacheline_interleave_mode_control>requested</mba_cacheline_interleave_mode_control>
+	<mcs_enhanced_grouping_no_mirroring>true</mcs_enhanced_grouping_no_mirroring>
+
+	<mem_mirroring_allowed>false</mem_mirroring_allowed>
+	<mem_mirroring_enable_default>false</mem_mirroring_enable_default>
+    <mem_power_control_usage>none</mem_power_control_usage>
+
     <mss_mca_hash_mode>0</mss_mca_hash_mode>
     <mss_mba_addr_interleave_bit>24</mss_mba_addr_interleave_bit>
     <mss_mba_cacheline_interleave_mode>1</mss_mba_cacheline_interleave_mode>
@@ -44,37 +63,40 @@
 	<proc_a_frequency frequency-units="MHz">6400</proc_a_frequency>
 	<proc_pcie_frequency frequency-units="MHz">1000</proc_pcie_frequency>
 
-        <!-- PCIE -->
-        <pcie-default-hddw-slot-count>4</pcie-default-hddw-slot-count>
-        <pcie-minimum-hddw-slot-count>4</pcie-minimum-hddw-slot-count>
-        <pcie-maximum-hddw-slot-count>8</pcie-maximum-hddw-slot-count>
+    <!-- PCIE -->
+    <pcie-default-hddw-slot-count>4</pcie-default-hddw-slot-count>
+    <pcie-minimum-hddw-slot-count>4</pcie-minimum-hddw-slot-count>
+    <pcie-maximum-hddw-slot-count>8</pcie-maximum-hddw-slot-count>
+
+    <!-- Power Mangement -->
+	<pm_safe_frequency frequency-units="MHz">2400</pm_safe_frequency>
 
 </required-policy-settings>
 
 <optional-policy-settings>
-	<title>System Policy Settings for Habanero</title>
+    <title>System Policy Settings for Habanero</title>
     <!-- In Mhz -->
     <minimum-frequency>1400</minimum-frequency>
     <nominal-frequency>3000</nominal-frequency>
     <maximum-frequency>4000</maximum-frequency>
     <open_power>
         <open_power_turbo_mode_supported>yes</open_power_turbo_mode_supported>
-		<open_power_n_plus_one_bulk_power_limit_watts>2400</open_power_n_plus_one_bulk_power_limit_watts>
-		<open_power_n_plus_one_max_mem_power_watts>500</open_power_n_plus_one_max_mem_power_watts>
-		<open_power_n_bulk_power_limit_watts>1200</open_power_n_bulk_power_limit_watts>
-		<open_power_n_max_mem_power_watts>500</open_power_n_max_mem_power_watts>
-		<open_power_regulator_efficiency_factor>0.85</open_power_regulator_efficiency_factor>
-		<open_power_min_power_cap_watts>1100</open_power_min_power_cap_watts>
-		<open_power_min_mem_utilization_throttling>5</open_power_min_mem_utilization_throttling>
-		<open_power_proc_dvfs_temp_deg_c>85</open_power_proc_dvfs_temp_deg_c>
-		<open_power_proc_error_temp_deg_c>95</open_power_proc_error_temp_deg_c>
-		<open_power_proc_read_timeout_sec>5</open_power_proc_read_timeout_sec>
-		<open_power_memctrl_throttle_temp_deg_c>89</open_power_memctrl_throttle_temp_deg_c>
-		<open_power_memctrl_error_temp_deg_c>99</open_power_memctrl_error_temp_deg_c>
-		<open_power_memctrl_read_timeout_sec>30</open_power_memctrl_read_timeout_sec>
-		<open_power_dimm_throttle_temp_deg_c>79</open_power_dimm_throttle_temp_deg_c>
-		<open_power_dimm_error_temp_deg_c>96</open_power_dimm_error_temp_deg_c>
-		<open_power_dimm_read_timeout_sec>30</open_power_dimm_read_timeout_sec>
-	</open_power>
-    </optional-policy-settings>
+        <open_power_n_plus_one_bulk_power_limit_watts>2400</open_power_n_plus_one_bulk_power_limit_watts>
+        <open_power_n_plus_one_max_mem_power_watts>500</open_power_n_plus_one_max_mem_power_watts>
+        <open_power_n_bulk_power_limit_watts>1200</open_power_n_bulk_power_limit_watts>
+        <open_power_n_max_mem_power_watts>500</open_power_n_max_mem_power_watts>
+        <open_power_regulator_efficiency_factor>0.85</open_power_regulator_efficiency_factor>
+        <open_power_min_power_cap_watts>1100</open_power_min_power_cap_watts>
+        <open_power_min_mem_utilization_throttling>5</open_power_min_mem_utilization_throttling>
+        <open_power_proc_dvfs_temp_deg_c>85</open_power_proc_dvfs_temp_deg_c>
+        <open_power_proc_error_temp_deg_c>95</open_power_proc_error_temp_deg_c>
+        <open_power_proc_read_timeout_sec>5</open_power_proc_read_timeout_sec>
+        <open_power_memctrl_throttle_temp_deg_c>89</open_power_memctrl_throttle_temp_deg_c>
+        <open_power_memctrl_error_temp_deg_c>99</open_power_memctrl_error_temp_deg_c>
+        <open_power_memctrl_read_timeout_sec>30</open_power_memctrl_read_timeout_sec>
+        <open_power_dimm_throttle_temp_deg_c>79</open_power_dimm_throttle_temp_deg_c>
+        <open_power_dimm_error_temp_deg_c>96</open_power_dimm_error_temp_deg_c>
+        <open_power_dimm_read_timeout_sec>30</open_power_dimm_read_timeout_sec>
+    </open_power>
+</optional-policy-settings>
 </system-policy-settings>
