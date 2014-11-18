@@ -80,7 +80,7 @@
     <nominal-frequency>3000</nominal-frequency>
     <maximum-frequency>4000</maximum-frequency>
     <open_power>
-        <open_power_turbo_mode_supported>yes</open_power_turbo_mode_supported>
+        <open_power_turbo_mode_supported>1</open_power_turbo_mode_supported>
         <open_power_n_plus_one_bulk_power_limit_watts>2400</open_power_n_plus_one_bulk_power_limit_watts>
         <open_power_n_plus_one_max_mem_power_watts>500</open_power_n_plus_one_max_mem_power_watts>
         <open_power_n_bulk_power_limit_watts>1200</open_power_n_bulk_power_limit_watts>
