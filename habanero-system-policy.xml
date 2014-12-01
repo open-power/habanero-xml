@@ -85,7 +85,7 @@
         <open_power_n_plus_one_max_mem_power_watts>500</open_power_n_plus_one_max_mem_power_watts>
         <open_power_n_bulk_power_limit_watts>1200</open_power_n_bulk_power_limit_watts>
         <open_power_n_max_mem_power_watts>500</open_power_n_max_mem_power_watts>
-        <open_power_regulator_efficiency_factor>0.85</open_power_regulator_efficiency_factor>
+        <open_power_regulator_efficiency_factor>85</open_power_regulator_efficiency_factor>
         <open_power_min_power_cap_watts>1100</open_power_min_power_cap_watts>
         <open_power_min_mem_utilization_throttling>5</open_power_min_mem_utilization_throttling>
         <open_power_proc_dvfs_temp_deg_c>85</open_power_proc_dvfs_temp_deg_c>
