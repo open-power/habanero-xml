@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/parts/PEX8748_HABANERO.xml,v 1.1 2014/09/14 16:12:06 mashak Exp $ -->
+<parts xmlns:xi="http://www.w3.org/2001/XInclude"
+  	xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    >
+    
+<part>
+	<id>PEX8748_HABANERO</id>
+	<part-class>chip</part-class>
+	<part-type>pcie-switch</part-type>
+	<part-num>x0pxxxx</part-num>
+	<description>PLX 48lane PCIe Gen3 Switch</description>
+	<units>
+		<i2c-slave-units>
+			<i2c-slave-unit><id>I2C</id><pin-name>SDA</pin-name></i2c-slave-unit>
+		</i2c-slave-units>
+		<pcie-upstream-bridges>
+			<pcie-upstream-bridge><id>INBOUND_X8</id><direction>OUT</direction><width>8</width><station>0</station><port>0</port></pcie-upstream-bridge>
+		</pcie-upstream-bridges>
+	        <gpio-slave-units>
+                        <gpio-slave-unit><id>RESET</id><pin-name>RESET</pin-name></gpio-slave-unit>
+                </gpio-slave-units>
+		<pcie-downstream-bridges>
+			<pcie-downstream-bridge><id>S0P1_X8</id><direction>IN</direction><width>8</width><station>0</station><port>1</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S1P8_X8</id><direction>IN</direction><width>8</width><station>1</station><port>8</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S1P9_X8</id><direction>IN</direction><width>8</width><station>1</station><port>9</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S2P16_X8</id><direction>IN</direction><width>8</width><station>2</station><port>16</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S2P17_X8</id><direction>IN</direction><width>1</width><station>2</station><port>17</port></pcie-downstream-bridge>
+		</pcie-downstream-bridges>
+		<power-input-units>
+			<power-input-unit>
+				<id>0.9V</id>
+				<pin-name>VLOGIC</pin-name>
+				<voltage voltage-units="Volts">0.9</voltage>
+				<current-nom current-units="Amps">0.01</current-nom>
+				<current-max current-units="Amps">0.02</current-max>
+			</power-input-unit>
+			<power-input-unit>
+				<id>1.8V</id>
+				<pin-name>VCC</pin-name>
+				<voltage voltage-units="Volts">1.8</voltage>
+				<current-nom current-units="Amps">0.01</current-nom>
+				<current-max current-units="Amps">0.02</current-max>
+			</power-input-unit>
+		</power-input-units>
+	</units>
+</part>
+
+</parts>

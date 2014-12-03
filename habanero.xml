@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto.xml,v 1.3 2014/08/12 15:04:05 spinler Exp $ -->
+<system xmlns:xi="http://www.w3.org/2001/XInclude"
+  	xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    >
+    <id>habanero</id>
+    <system-type>firenze</system-type>
+    <enclosure-type>SINGLEDRAWER</enclosure-type>
+    <title>Habanero System</title>
+    <xi:include href="habanero_layout.xml"/>
+</system>
