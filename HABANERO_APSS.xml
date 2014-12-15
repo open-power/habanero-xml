@@ -355,7 +355,7 @@
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[10]</unit-id><id>FUNCTION_ID</id>
-                        <value>#N/A</value>
+                        <value>24</value>
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[10]</unit-id><id>FUNCTION_NAME</id>
