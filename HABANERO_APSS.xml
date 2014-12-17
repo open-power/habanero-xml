@@ -331,7 +331,7 @@
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[1]</unit-id><id>FUNCTION_ID</id>
-                        <value>1</value>
+                        <value>2</value>
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[1]</unit-id><id>FUNCTION_NAME</id>
@@ -451,7 +451,7 @@
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[14]</unit-id><id>FUNCTION_ID</id>
-                        <value>1</value>
+                        <value>4</value>
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[14]</unit-id><id>FUNCTION_NAME</id>
@@ -499,7 +499,7 @@
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[2]</unit-id><id>FUNCTION_ID</id>
-                        <value>1</value>
+                        <value>3</value>
                     </configuration-entry>
                     <configuration-entry>
                         <unit-type>adc-unit</unit-type><unit-id>ADCCH[2]</unit-id><id>FUNCTION_NAME</id>
