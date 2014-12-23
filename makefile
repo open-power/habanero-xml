@@ -74,7 +74,7 @@ $(patsubst clean,,$(MAKECMDGOALS)): $(patsubst %,%.done,$(MAKECMDGOALS))
 %.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml %-proc-spi-busses.xml ${NON_BUILTS}
 	touch $@
 
-${OUTPUT_PATH}/%.xml:
+${OUTPUT_PATH}/%.xml: %.xml
 	@echo "=== Copying non-built $@ ==="
 	cp ${patsubst ${OUTPUT_PATH}/%,%, $@} ${OUTPUT_PATH}/
 
