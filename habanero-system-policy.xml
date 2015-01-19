@@ -27,7 +27,7 @@
     <safemode_mem_throttle_numerator_per_chip>32</safemode_mem_throttle_numerator_per_chip>
     <thermal_memory_power_limit>1500</thermal_memory_power_limit>
     <mem_throttle_denominator>512</mem_throttle_denominator>
-    <max_dram_databus_util>5625</max_dram_databus_util>
+    <max_dram_databus_util>7500</max_dram_databus_util>
     <dimm_power_curve_percent_uplift>0</dimm_power_curve_percent_uplift>
     <dimm_power_curve_percent_uplift_idle>0</dimm_power_curve_percent_uplift_idle>
     <mss_draminit_reset_disable>0</mss_draminit_reset_disable>
@@ -53,6 +53,8 @@
     <mss_mba_cacheline_interleave_mode>1</mss_mba_cacheline_interleave_mode>
     <mss_prefetch_enable>1</mss_prefetch_enable>
     <mss_cleaner_enable>1</mss_cleaner_enable>
+
+    <mem_sensor_cache_addr_map>0x2345ABCD</mem_sensor_cache_addr_map>
 
     <!-- processor -->
     <proc_eps_table_type>2</proc_eps_table_type>
