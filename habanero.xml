@@ -1185,6 +1185,754 @@
 		<value>0x01</value>
 		</enumerator>
 </enumerationType>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x54,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>11</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-18/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>18</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5b,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x58,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>15</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0</id>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-4/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>3</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-23/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>23</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x60,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-27/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>27</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x64,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-19/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>19</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5c,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/occ-0</id>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>5</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4e,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-31/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>31</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x68,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-10/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>7</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-21/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>21</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5e,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>7</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x50,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-29/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>29</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x66,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-26/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>26</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x63,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-12/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>9</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/membuf-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>membuf-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/membuf-1</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>membuf-1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>6</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4f,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>2</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4b,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>4</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4d,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/membuf-2</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>membuf-2</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>2</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/membuf-3</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>membuf-3</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>3</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-5/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>4</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>10</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-24/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>24</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x61,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>3</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4c,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x53,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>10</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x57,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>14</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>proc</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0103,0x14,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-22/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>22</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5f,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-30/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>30</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x67,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x51,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>8</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>5</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x49,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-14/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>11</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>6</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-11/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>8</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-16/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x59,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>16</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0</id>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0x0c20,0x49,0x0f22,0x05,0x1f23,0x06,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x55,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>12</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x52,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>9</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x4a,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-20/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>20</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5d,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-28/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>28</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x65,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0</id>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0107,0x0c,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-17/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>17</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x5a,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>core-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>2</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-25/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>25</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x62,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>IPMI_SENSORS</id>
+	<value>0x0c20,0x56,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>13</value>
+	</property>
+</globalSetting>
 <targetInstance>
 	<id>sys-0</id>
 	<type>sys-sys-power8</type>
@@ -1303,11 +2051,6 @@
 				<field><id>traceScanDebug</id><value>0</value></field>
 				<field><id>reserved</id><value>0</value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -1753,11 +2496,11 @@
 		<default>NA</default>
 	</attribute>
 	<bus>
-		<bus_id>membuf-0/mba-0 => dimmconn-0/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-0/Port A:CS0 => dimmconn-0/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-0/mba-0/</source_path>
+		<source_target>Port A:CS0</source_target>
 		<dest_path>dimmconn-0/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1766,11 +2509,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-0 => dimmconn-1/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-0/Port A:CS1 => dimmconn-1/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-0/mba-0/</source_path>
+		<source_target>Port A:CS1</source_target>
 		<dest_path>dimmconn-1/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1779,11 +2522,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-0 => dimmconn-2/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-0/Port B:CS0 => dimmconn-2/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-0/mba-0/</source_path>
+		<source_target>Port B:CS0</source_target>
 		<dest_path>dimmconn-2/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1792,11 +2535,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-0 => dimmconn-3/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-0/Port B:CS1 => dimmconn-3/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-0/mba-0/</source_path>
+		<source_target>Port B:CS1</source_target>
 		<dest_path>dimmconn-3/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1805,11 +2548,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-1 => dimmconn-4/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-1/Port C:CS0 => dimmconn-4/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-0/mba-1/</source_path>
+		<source_target>Port C:CS0</source_target>
 		<dest_path>dimmconn-4/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1818,11 +2561,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-1 => dimmconn-5/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-1/Port C:CS1 => dimmconn-5/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-0/mba-1/</source_path>
+		<source_target>Port C:CS1</source_target>
 		<dest_path>dimmconn-5/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1831,11 +2574,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-1 => dimmconn-6/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-1/Port D:CS0 => dimmconn-6/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-0/mba-1/</source_path>
+		<source_target>Port D:CS0</source_target>
 		<dest_path>dimmconn-6/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1844,11 +2587,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-0/mba-1 => dimmconn-7/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-0/mba-1/Port D:CS1 => dimmconn-7/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-0/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-0/mba-1/</source_path>
+		<source_target>Port D:CS1</source_target>
 		<dest_path>dimmconn-7/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1857,11 +2600,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-0 => dimmconn-8/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-0/Port A:CS0 => dimmconn-8/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-1/mba-0/</source_path>
+		<source_target>Port A:CS0</source_target>
 		<dest_path>dimmconn-8/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1870,11 +2613,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-0 => dimmconn-9/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-0/Port A:CS1 => dimmconn-9/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-1/mba-0/</source_path>
+		<source_target>Port A:CS1</source_target>
 		<dest_path>dimmconn-9/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1883,11 +2626,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-0 => dimmconn-10/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-0/Port B:CS0 => dimmconn-10/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-1/mba-0/</source_path>
+		<source_target>Port B:CS0</source_target>
 		<dest_path>dimmconn-10/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1896,11 +2639,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-0 => dimmconn-11/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-0/Port B:CS1 => dimmconn-11/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-1/mba-0/</source_path>
+		<source_target>Port B:CS1</source_target>
 		<dest_path>dimmconn-11/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1909,11 +2652,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-1 => dimmconn-12/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-1/Port C:CS0 => dimmconn-12/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-1/mba-1/</source_path>
+		<source_target>Port C:CS0</source_target>
 		<dest_path>dimmconn-12/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1922,11 +2665,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-1 => dimmconn-13/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-1/Port C:CS1 => dimmconn-13/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-1/mba-1/</source_path>
+		<source_target>Port C:CS1</source_target>
 		<dest_path>dimmconn-13/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1935,11 +2678,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-1 => dimmconn-14/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-1/Port D:CS0 => dimmconn-14/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-1/mba-1/</source_path>
+		<source_target>Port D:CS0</source_target>
 		<dest_path>dimmconn-14/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1948,11 +2691,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/mba-1 => dimmconn-15/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-1/mba-1/Port D:CS1 => dimmconn-15/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-1/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-1/mba-1/</source_path>
+		<source_target>Port D:CS1</source_target>
 		<dest_path>dimmconn-15/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1961,11 +2704,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-0 => dimmconn-16/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-0/Port A:CS0 => dimmconn-16/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-2/mba-0/</source_path>
+		<source_target>Port A:CS0</source_target>
 		<dest_path>dimmconn-16/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1974,11 +2717,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-0 => dimmconn-17/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-0/Port A:CS1 => dimmconn-17/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-2/mba-0/</source_path>
+		<source_target>Port A:CS1</source_target>
 		<dest_path>dimmconn-17/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -1987,11 +2730,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-0 => dimmconn-18/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-0/Port B:CS0 => dimmconn-18/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-2/mba-0/</source_path>
+		<source_target>Port B:CS0</source_target>
 		<dest_path>dimmconn-18/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2000,11 +2743,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-0 => dimmconn-19/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-0/Port B:CS1 => dimmconn-19/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-2/mba-0/</source_path>
+		<source_target>Port B:CS1</source_target>
 		<dest_path>dimmconn-19/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2013,11 +2756,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-1 => dimmconn-20/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-1/Port C:CS0 => dimmconn-20/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-2/mba-1/</source_path>
+		<source_target>Port C:CS0</source_target>
 		<dest_path>dimmconn-20/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2026,11 +2769,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-1 => dimmconn-21/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-1/Port C:CS1 => dimmconn-21/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-2/mba-1/</source_path>
+		<source_target>Port C:CS1</source_target>
 		<dest_path>dimmconn-21/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2039,11 +2782,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-1 => dimmconn-22/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-1/Port D:CS0 => dimmconn-22/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-2/mba-1/</source_path>
+		<source_target>Port D:CS0</source_target>
 		<dest_path>dimmconn-22/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2052,11 +2795,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/mba-1 => dimmconn-23/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-2/mba-1/Port D:CS1 => dimmconn-23/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-2/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-2/mba-1/</source_path>
+		<source_target>Port D:CS1</source_target>
 		<dest_path>dimmconn-23/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2065,11 +2808,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-0 => dimmconn-24/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-0/Port A:CS0 => dimmconn-24/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-3/mba-0/</source_path>
+		<source_target>Port A:CS0</source_target>
 		<dest_path>dimmconn-24/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2078,11 +2821,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-0 => dimmconn-25/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-0/Port A:CS1 => dimmconn-25/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-3/mba-0/</source_path>
+		<source_target>Port A:CS1</source_target>
 		<dest_path>dimmconn-25/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2091,11 +2834,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-0 => dimmconn-26/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-0/Port B:CS0 => dimmconn-26/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-3/mba-0/</source_path>
+		<source_target>Port B:CS0</source_target>
 		<dest_path>dimmconn-26/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2104,11 +2847,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-0 => dimmconn-27/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-0/Port B:CS1 => dimmconn-27/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-0</source_target>
+		<source_path>membuf-3/mba-0/</source_path>
+		<source_target>Port B:CS1</source_target>
 		<dest_path>dimmconn-27/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2117,11 +2860,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-1 => dimmconn-28/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-1/Port C:CS0 => dimmconn-28/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-3/mba-1/</source_path>
+		<source_target>Port C:CS0</source_target>
 		<dest_path>dimmconn-28/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2130,11 +2873,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-1 => dimmconn-29/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-1/Port C:CS1 => dimmconn-29/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-3/mba-1/</source_path>
+		<source_target>Port C:CS1</source_target>
 		<dest_path>dimmconn-29/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2143,11 +2886,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-1 => dimmconn-30/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-1/Port D:CS0 => dimmconn-30/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-3/mba-1/</source_path>
+		<source_target>Port D:CS0</source_target>
 		<dest_path>dimmconn-30/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2156,11 +2899,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/mba-1 => dimmconn-31/dimm-0/ddr3</bus_id>
+		<bus_id>membuf-3/mba-1/Port D:CS1 => dimmconn-31/dimm-0/ddr3</bus_id>
 		<bus_type>DDR3</bus_type>
 		<cable>no</cable>
-		<source_path>membuf-3/</source_path>
-		<source_target>mba-1</source_target>
+		<source_path>membuf-3/mba-1/</source_path>
+		<source_target>Port D:CS1</source_target>
 		<dest_path>dimmconn-31/dimm-0/</dest_path>
 		<dest_target>ddr3</dest_target>
 		<bus_attribute>
@@ -2198,7 +2941,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>PROC_TX_MSBSWAP</id>
-		<default>0</default>
+		<default>1</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -2256,7 +2999,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>MEMBUF_TX_MSBSWAP</id>
-		<default>0</default>
+		<default>1</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PROC_TX_LANE_INVERT</id>
@@ -2289,7 +3032,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>MEMBUF_TX_MSBSWAP</id>
-		<default>0</default>
+		<default>1</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PROC_TX_LANE_INVERT</id>
@@ -2297,7 +3040,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>PROC_TX_MSBSWAP</id>
-		<default>0</default>
+		<default>1</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -2348,7 +3091,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>0xA0</default>
+		<default>0x40</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
@@ -3146,13 +3889,12 @@
 		<default>00</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PCIE_SWAP_CLKS</id>
-		<default>0</default>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PROC_PCIE_LANE_EQUALIZATION</id>
-		<default>0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77
-			</default>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -3172,13 +3914,12 @@
 		<default>0</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PCIE_SWAP_CLKS</id>
-		<default>0</default>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PROC_PCIE_LANE_EQUALIZATION</id>
-		<default>0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77
-			</default>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -3198,13 +3939,12 @@
 		<default>1</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PCIE_SWAP_CLKS</id>
-		<default>0</default>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>PROC_PCIE_LANE_EQUALIZATION</id>
-		<default>0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77,0x77
-			</default>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -3282,11 +4022,6 @@
 	<attribute>
 		<id>FRU_ID</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -3423,7 +4158,7 @@
 <targetInstance>
 	<id>proc</id>
 	<type>chip-processor-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>proc</instance_name>
 	<position>-1</position>
 	<child_id>ex-1</child_id>
@@ -3462,6 +4197,7 @@
 	<child_id>i2c-master-lightpath</child_id>
 	<child_id>i2c-master-hotplug</child_id>
 	<child_id>lpc-slave</child_id>
+	<child_id>proc_fru_assoc</child_id>
 	<hidden_child_id>pci-0</hidden_child_id>
 	<hidden_child_id>pci-1</hidden_child_id>
 	<hidden_child_id>pci-2</hidden_child_id>
@@ -3553,10 +4289,6 @@
 		<default>0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FSP_BASE_ADDR</id>
 		<default>0,0x0000000000000000</default>
 	</attribute>
@@ -3571,6 +4303,10 @@
 	<attribute>
 		<id>INTP_BASE_ADDR</id>
 		<default>1,0x0003FFFF80000000,0x400000,0x100000,0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -3656,7 +4392,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>-1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_DCM_INSTALLED</id>
@@ -3678,7 +4414,7 @@
 <targetInstance>
 	<id>ex-1</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-1</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3710,7 +4446,7 @@
 <targetInstance>
 	<id>core-0</id>
 	<type>unit-core-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>core-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -3730,6 +4466,10 @@
 		<default>0xD0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>VENICE</default>
 	</attribute>
@@ -3745,7 +4485,7 @@
 <targetInstance>
 	<id>ex-2</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-2</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3777,7 +4517,7 @@
 <targetInstance>
 	<id>ex-3</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-3</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3809,7 +4549,7 @@
 <targetInstance>
 	<id>ex-4</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-4</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3841,7 +4581,7 @@
 <targetInstance>
 	<id>ex-5</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-5</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3873,7 +4613,7 @@
 <targetInstance>
 	<id>ex-6</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-6</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3905,7 +4645,7 @@
 <targetInstance>
 	<id>ex-9</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-9</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3937,7 +4677,7 @@
 <targetInstance>
 	<id>ex-10</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-10</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -3969,7 +4709,7 @@
 <targetInstance>
 	<id>ex-11</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-11</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -4001,7 +4741,7 @@
 <targetInstance>
 	<id>ex-12</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-12</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -4033,7 +4773,7 @@
 <targetInstance>
 	<id>ex-13</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-13</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -4065,7 +4805,7 @@
 <targetInstance>
 	<id>ex-14</id>
 	<type>unit-ex-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ex-14</instance_name>
 	<position>-1</position>
 	<child_id>core-0</child_id>
@@ -4097,7 +4837,7 @@
 <targetInstance>
 	<id>pore-0</id>
 	<type>unit-pore-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pore-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4128,7 +4868,7 @@
 <targetInstance>
 	<id>capp-0</id>
 	<type>unit-capp-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>capp-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4159,7 +4899,7 @@
 <targetInstance>
 	<id>nx-0</id>
 	<type>unit-nx-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>nx-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4190,7 +4930,7 @@
 <targetInstance>
 	<id>occ-0</id>
 	<type>occ</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>occ-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4229,7 +4969,7 @@
 <targetInstance>
 	<id>pci_configs</id>
 	<type>unit-pciconfigs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pci_configs</instance_name>
 	<position>-1</position>
 	<child_id>E0_x16:E1_x16</child_id>
@@ -4266,7 +5006,7 @@
 <targetInstance>
 	<id>E0_x16:E1_x16</id>
 	<type>unit-pciconfig0-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E0_x16:E1_x16</instance_name>
 	<position>-1</position>
 	<child_id>E0_x16</child_id>
@@ -4285,7 +5025,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_CONFIG_NUM</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -4314,7 +5054,7 @@
 <targetInstance>
 	<id>E0_x16</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E0_x16</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4377,7 +5117,7 @@
 <targetInstance>
 	<id>E1_x16</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E1_x16</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4440,7 +5180,7 @@
 <targetInstance>
 	<id>E0_x16:E1_x8x8</id>
 	<type>unit-pciconfig1-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E0_x16:E1_x8x8</instance_name>
 	<position>-1</position>
 	<child_id>E0_x16</child_id>
@@ -4460,7 +5200,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_CONFIG_NUM</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -4489,7 +5229,7 @@
 <targetInstance>
 	<id>E1_CLK0_x8</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E1_CLK0_x8</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4552,7 +5292,7 @@
 <targetInstance>
 	<id>E1_CLK1_x8</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>E1_CLK1_x8</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4615,7 +5355,7 @@
 <targetInstance>
 	<id>abus-0</id>
 	<type>unit-abus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>abus-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4650,7 +5390,7 @@
 <targetInstance>
 	<id>abus-1</id>
 	<type>unit-abus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>abus-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4685,7 +5425,7 @@
 <targetInstance>
 	<id>abus-2</id>
 	<type>unit-abus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>abus-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4720,7 +5460,7 @@
 <targetInstance>
 	<id>mcs-0</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4776,7 +5516,7 @@
 <targetInstance>
 	<id>mcs-1</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4832,7 +5572,7 @@
 <targetInstance>
 	<id>mcs-4</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-4</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4888,7 +5628,7 @@
 <targetInstance>
 	<id>mcs-5</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-5</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4944,7 +5684,7 @@
 <targetInstance>
 	<id>fsi-slave-0</id>
 	<type>unit-fsi-slave</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-slave-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -4991,7 +5731,7 @@
 <targetInstance>
 	<id>fsi-cm-0</id>
 	<type>unit-fsi-membuf</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-cm-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5042,7 +5782,7 @@
 <targetInstance>
 	<id>fsi-cm-1</id>
 	<type>unit-fsi-membuf</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-cm-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5093,7 +5833,7 @@
 <targetInstance>
 	<id>fsi-cm-2</id>
 	<type>unit-fsi-membuf</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-cm-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5144,7 +5884,7 @@
 <targetInstance>
 	<id>fsi-cm-3</id>
 	<type>unit-fsi-membuf</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-cm-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5195,7 +5935,7 @@
 <targetInstance>
 	<id>fsim-0</id>
 	<type>unit-fsi-proc</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsim-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5246,7 +5986,7 @@
 <targetInstance>
 	<id>fsim-1</id>
 	<type>unit-fsi-proc</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsim-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5297,7 +6037,7 @@
 <targetInstance>
 	<id>fsim-2</id>
 	<type>unit-fsi-proc</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsim-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5348,7 +6088,7 @@
 <targetInstance>
 	<id>i2c-slave</id>
 	<type>unit-i2c-slave</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>i2c-slave</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5383,7 +6123,7 @@
 <targetInstance>
 	<id>i2c-master-lightpath</id>
 	<type>unit-i2c-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>i2c-master-lightpath</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5426,7 +6166,7 @@
 <targetInstance>
 	<id>i2c-master-hotplug</id>
 	<type>unit-i2c-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>i2c-master-hotplug</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5469,7 +6209,7 @@
 <targetInstance>
 	<id>lpc-slave</id>
 	<type>unit-lpc-slave</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>lpc-slave</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5502,9 +6242,48 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>proc_fru_assoc</id>
+	<type>unit-logic_assoc-generic</type>
+	<library_target>true</library_target>
+	<instance_name>proc_fru_assoc</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>ASSOCIATION_TYPE</id>
+		<default>FRU</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>pci-0</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pci-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5567,7 +6346,7 @@
 <targetInstance>
 	<id>pci-1</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pci-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5630,7 +6409,7 @@
 <targetInstance>
 	<id>pci-2</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pci-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5693,7 +6472,7 @@
 <targetInstance>
 	<id>pci-3</id>
 	<type>unit-pci-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pci-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5756,7 +6535,7 @@
 <targetInstance>
 	<id>xbus-0</id>
 	<type>unit-xbus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>xbus-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5791,7 +6570,7 @@
 <targetInstance>
 	<id>xbus-1</id>
 	<type>unit-xbus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>xbus-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5826,7 +6605,7 @@
 <targetInstance>
 	<id>xbus-2</id>
 	<type>unit-xbus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>xbus-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5861,7 +6640,7 @@
 <targetInstance>
 	<id>xbus-3</id>
 	<type>unit-xbus-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>xbus-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5896,7 +6675,7 @@
 <targetInstance>
 	<id>mcs-2</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -5952,7 +6731,7 @@
 <targetInstance>
 	<id>mcs-3</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6008,7 +6787,7 @@
 <targetInstance>
 	<id>mcs-6</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-6</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6064,7 +6843,7 @@
 <targetInstance>
 	<id>mcs-7</id>
 	<type>unit-mcs-venice</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mcs-7</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6145,12 +6924,12 @@
 		<default>0xD1,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -6188,7 +6967,7 @@
 <targetInstance>
 	<id>dmi</id>
 	<type>unit-dmi-centaur</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>dmi</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6223,7 +7002,7 @@
 <targetInstance>
 	<id>l4</id>
 	<type>unit-l4-centaur</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>l4</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6254,8 +7033,47 @@
 <targetInstance>
 	<id>mba-0</id>
 	<type>unit-mba-centaur</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>mba-0</instance_name>
+	<position>-1</position>
+	<child_id>Port A:CS0</child_id>
+	<child_id>Port A:CS1</child_id>
+	<child_id>Port B:CS0</child_id>
+	<child_id>Port B:CS1</child_id>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_NUM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>MBA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port A:CS0</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port A:CS0</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -6274,6 +7092,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
+		<id>MBA_DIMM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>CENTAUR</default>
 	</attribute>
@@ -6283,18 +7109,18 @@
 	</attribute>
 	<attribute>
 		<id>SCHEMATIC_INTERFACE</id>
-		<default>Port A and B</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>MBA</default>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>mba-1</id>
-	<type>unit-mba-centaur</type>
-	<library_target>false</library_target>
-	<instance_name>mba-1</instance_name>
+	<id>Port A:CS1</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port A:CS1</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -6302,7 +7128,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -6313,6 +7139,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
+		<id>MBA_DIMM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>CENTAUR</default>
 	</attribute>
@@ -6322,7 +7156,140 @@
 	</attribute>
 	<attribute>
 		<id>SCHEMATIC_INTERFACE</id>
-		<default>Port C and D</default>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port B:CS0</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port B:CS0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port B:CS1</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port B:CS1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>mba-1</id>
+	<type>unit-mba-centaur</type>
+	<library_target>true</library_target>
+	<instance_name>mba-1</instance_name>
+	<position>-1</position>
+	<child_id>Port C:CS0</child_id>
+	<child_id>Port C:CS1</child_id>
+	<child_id>Port D:CS0</child_id>
+	<child_id>Port D:CS1</child_id>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_NUM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -6330,9 +7297,197 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>Port C:CS0</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port C:CS0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port C:CS1</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port C:CS1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port D:CS0</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port D:CS0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Port D:CS1</id>
+	<type>unit-dimm_port-power8</type>
+	<library_target>true</library_target>
+	<instance_name>Port D:CS1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>CENTAUR</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>i2c-master</id>
 	<type>unit-i2c-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>i2c-master</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6375,7 +7530,7 @@
 <targetInstance>
 	<id>i2c-spare</id>
 	<type>unit-i2c-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>i2c-spare</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6418,7 +7573,7 @@
 <targetInstance>
 	<id>fsi-slave-membuf</id>
 	<type>unit-fsicm-slave</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>fsi-slave-membuf</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6465,7 +7620,7 @@
 <targetInstance>
 	<id>vddr</id>
 	<type>unit-power-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vddr</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6504,7 +7659,7 @@
 <targetInstance>
 	<id>vpd_assoc_child</id>
 	<type>unit-logic_assoc-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vpd_assoc_child</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6568,12 +7723,12 @@
 		<default>0xD1,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -6636,12 +7791,12 @@
 		<default>0xD1,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -6704,12 +7859,12 @@
 		<default>0xD1,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -6756,11 +7911,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -6794,6 +7944,14 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
+		<id>ENTITY_ID_LOOKUP</id>
+		<default>0x20,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -6817,7 +7975,7 @@
 <targetInstance>
 	<id>ddr3</id>
 	<type>unit-ddr3-jedec</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>ddr3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -6852,7 +8010,7 @@
 <targetInstance>
 	<id>spd</id>
 	<type>chip-spd-device</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>spd</instance_name>
 	<position>-1</position>
 	<child_id>i2c-slave</child_id>
@@ -6867,10 +8025,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
@@ -6902,7 +8056,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>-1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -6918,7 +8072,7 @@
 	</attribute>
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
-		<default>0x00</default>
+		<default>0x50</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -6931,11 +8085,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -6970,11 +8119,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7005,11 +8149,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7044,11 +8183,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7079,11 +8213,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7118,11 +8247,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7153,11 +8277,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7192,11 +8311,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7227,11 +8341,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7266,11 +8375,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7301,11 +8405,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7340,11 +8439,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7375,11 +8469,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7414,11 +8503,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7449,11 +8533,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7488,11 +8567,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7523,11 +8597,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7562,11 +8631,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7597,11 +8661,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7636,11 +8695,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7671,11 +8725,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7710,11 +8759,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7745,11 +8789,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7784,11 +8823,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7819,11 +8853,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7858,11 +8887,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7893,11 +8917,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7932,11 +8951,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7967,11 +8981,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -8006,11 +9015,6 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -8041,11 +9045,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSORS</id>
-		<default>0x0700,0x07,0x0800,0x04,0x0900,0x05,0x0a00,0x08,0x0b00,0x09,0x0c00,0x06,0x0d00,0x00,0x0e00,0xFF,0x0F00,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF,0xFFFF,0xFF
-			</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -8087,10 +9086,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
@@ -8144,7 +9139,7 @@
 <targetInstance>
 	<id>vpd_assoc_parent</id>
 	<type>unit-logic_assoc-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vpd_assoc_parent</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8198,10 +9193,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -8229,7 +9220,7 @@
 <targetInstance>
 	<id>vreg_enable</id>
 	<type>unit-vreg_enable-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vreg_enable</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8268,7 +9259,7 @@
 <targetInstance>
 	<id>vreg_pgood</id>
 	<type>unit-vreg_pgood-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vreg_pgood</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8307,7 +9298,7 @@
 <targetInstance>
 	<id>vout</id>
 	<type>unit-vreg_vout-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>vout</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8375,10 +9366,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -8406,7 +9393,7 @@
 <targetInstance>
 	<id>io-0</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8449,7 +9436,7 @@
 <targetInstance>
 	<id>io-1</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8492,7 +9479,7 @@
 <targetInstance>
 	<id>io-2</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8535,7 +9522,7 @@
 <targetInstance>
 	<id>io-3</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8578,7 +9565,7 @@
 <targetInstance>
 	<id>io-4</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-4</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8621,7 +9608,7 @@
 <targetInstance>
 	<id>io-5</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-5</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8664,7 +9651,7 @@
 <targetInstance>
 	<id>io-6</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-6</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8707,7 +9694,7 @@
 <targetInstance>
 	<id>io-7</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io-7</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8750,7 +9737,7 @@
 <targetInstance>
 	<id>io1-0</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-0</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8793,7 +9780,7 @@
 <targetInstance>
 	<id>io1-1</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-1</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8836,7 +9823,7 @@
 <targetInstance>
 	<id>io1-2</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-2</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8879,7 +9866,7 @@
 <targetInstance>
 	<id>io1-3</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-3</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8922,7 +9909,7 @@
 <targetInstance>
 	<id>io1-4</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-4</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -8965,7 +9952,7 @@
 <targetInstance>
 	<id>io1-5</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-5</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -9008,7 +9995,7 @@
 <targetInstance>
 	<id>io1-6</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-6</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -9051,7 +10038,7 @@
 <targetInstance>
 	<id>io1-7</id>
 	<type>unit-gpio-generic</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>io1-7</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -9142,7 +10129,7 @@
 <targetInstance>
 	<id>pciep</id>
 	<type>unit-pcie-endpoint</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>pciep</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -9188,10 +10175,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -9283,10 +10266,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -9314,7 +10293,7 @@
 <targetInstance>
 	<id>bmc_lpc_master</id>
 	<type>unit-lpc-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>bmc_lpc_master</instance_name>
 	<position>-1</position>
 	<attribute>
@@ -9349,7 +10328,7 @@
 <targetInstance>
 	<id>bmc_i2c_master</id>
 	<type>unit-i2c-master</type>
-	<library_target>false</library_target>
+	<library_target>true</library_target>
 	<instance_name>bmc_i2c_master</instance_name>
 	<position>-1</position>
 	<attribute>
