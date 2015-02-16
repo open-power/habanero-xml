@@ -1,0 +1,930 @@
+<devices>
+<device>
+	<name>Activate Pwr Lt</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>83</sensor_id>
+	<entity_id>0x15</entity_id>
+	<sensor_type>0xc6</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 10</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>39</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x9</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 28</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>57</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1b</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 16</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>45</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xf</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 11</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>159</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0xa</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 3</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>64</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x2</entity_instance>
+</device>
+<device>
+	<name>Centaur Temp 3</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>103</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 8</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>69</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x7</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 11</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>72</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0xa</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 4</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>33</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x3</entity_instance>
+</device>
+<device>
+	<name>Centaur Temp 2</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>102</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 8</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>37</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x7</entity_instance>
+</device>
+<device>
+	<name>APSS 3</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>163</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>2</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 26</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>55</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x19</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 9</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>70</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x8</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 10</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>71</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x9</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 4</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>65</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x3</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 12</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>160</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0xb</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 22</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>51</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x15</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 4</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>140</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x3</entity_instance>
+</device>
+<device>
+	<name>OS Boot</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>90</sensor_id>
+	<entity_id>0x23</entity_id>
+	<sensor_type>0x1f</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 8</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>168</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>7</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 11</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>40</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xa</entity_instance>
+</device>
+<device>
+	<name>Ref Clock</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>84</sensor_id>
+	<entity_id>0xd4</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 7</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>167</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>6</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 7</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>36</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x6</entity_instance>
+</device>
+<device>
+	<name>APSS 9</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>169</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>8</entity_instance>
+</device>
+<device>
+	<name>APSS 4</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>164</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>3</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 8</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>156</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x7</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 19</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>48</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x12</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 20</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>49</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x13</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 17</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>46</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x10</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 1</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>149</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 23</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>52</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x16</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 5</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>66</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x4</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 11</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>147</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0xa</entity_instance>
+</device>
+<device>
+	<name>Watchdog</name>
+	<dev_name>Watchdog</dev_name>
+	<sensor_id>0</sensor_id>
+	<entity_id>0x0</entity_id>
+	<sensor_type>0x23</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>OCC Active</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>8</sensor_id>
+	<entity_id>0xd2</entity_id>
+	<sensor_type>0x7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 5</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>141</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x4</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 31</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>60</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1e</entity_instance>
+</device>
+<device>
+	<name>APSS 1</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>161</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>0</entity_instance>
+</device>
+<device>
+	<name>APSS 16</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>176</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>15</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 3</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>151</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x2</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 10</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>158</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x9</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 7</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>143</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x6</entity_instance>
+</device>
+<device>
+	<name>Quick Power Drop</name>
+	<dev_name>digital_oem</dev_name>
+	<sensor_id>13</sensor_id>
+	<entity_id>0x13</entity_id>
+	<sensor_type>0x7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>System Event</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>82</sensor_id>
+	<entity_id>0x1</entity_id>
+	<sensor_type>0x12</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>Centaur Func 1</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>74</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>Boot Count</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>80</sensor_id>
+	<entity_id>0x22</entity_id>
+	<sensor_type>0xc3</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 12</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>172</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>11</entity_instance>
+</device>
+<device>
+	<name>PCI</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>91</sensor_id>
+	<entity_id>0x23</entity_id>
+	<sensor_type>0xc4</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 14</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>174</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>13</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 32</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>61</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1f</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 21</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>50</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x14</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 29</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>58</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1c</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 10</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>146</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x9</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 12</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>148</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0xb</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 3</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>139</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x2</entity_instance>
+</device>
+<device>
+	<name>Centaur Func 4</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>77</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 25</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>54</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x18</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 1</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>30</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>Checkstop</name>
+	<dev_name>digital_oem</dev_name>
+	<sensor_id>12</sensor_id>
+	<entity_id>0x3</entity_id>
+	<sensor_type>0x7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>Chassis Intr</name>
+	<dev_name>digital_oem</dev_name>
+	<sensor_id>21</sensor_id>
+	<entity_id>0x17</entity_id>
+	<sensor_type>0x5</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 14</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>43</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xd</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 7</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>68</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x6</entity_instance>
+</device>
+<device>
+	<name>Ambient Temp</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>10</sensor_id>
+	<entity_id>0x7</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>FW Boot Progress</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>5</sensor_id>
+	<entity_id>0x22</entity_id>
+	<sensor_type>0xf</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 3</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>32</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x2</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 5</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>153</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x4</entity_instance>
+</device>
+<device>
+	<name>PCI Clock</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>85</sensor_id>
+	<entity_id>0xd5</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 12</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>41</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xb</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 2</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>63</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x1</entity_instance>
+</device>
+<device>
+	<name>Power Cap</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>88</sensor_id>
+	<entity_id>0x17</entity_id>
+	<sensor_type>0xc2</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>Centaur Temp 4</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>104</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>All PGood</name>
+	<dev_name>digital_oem</dev_name>
+	<sensor_id>28</sensor_id>
+	<entity_id>0x13</entity_id>
+	<sensor_type>0x9</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 15</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>175</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>14</entity_instance>
+</device>
+<device>
+	<name>APSS 2</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>162</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>1</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 24</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>53</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x17</entity_instance>
+</device>
+<device>
+	<name>CPU Diode Sensor</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>11</sensor_id>
+	<entity_id>0x3</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 5</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>165</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>4</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 1</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>137</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Temp</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>100</sensor_id>
+	<entity_id>0x3</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 2</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>31</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 18</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>47</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x11</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 12</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>73</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0xb</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 9</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>145</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x8</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 9</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>38</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x8</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 8</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>144</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x7</entity_instance>
+</device>
+<device>
+	<name>APSS 6</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>166</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>5</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 6</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>67</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x5</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 7</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>155</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x6</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 2</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>138</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x1</entity_instance>
+</device>
+<device>
+	<name>TOD Clock</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>86</sensor_id>
+	<entity_id>0xd6</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 2</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>150</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x1</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 27</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>56</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1a</entity_instance>
+</device>
+<device>
+	<name>APSS 13</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>173</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>12</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 15</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>44</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xe</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 13</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>42</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0xc</entity_instance>
+</device>
+<device>
+	<name>CPU Core Temp 6</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>142</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x5</entity_instance>
+</device>
+<device>
+	<name>Centaur Func 2</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>75</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 10</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>170</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>9</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 9</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>157</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x8</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 4</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>152</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x3</entity_instance>
+</device>
+<device>
+	<name>CPU Core Freq 6</name>
+	<dev_name>Freq</dev_name>
+	<sensor_id>154</sensor_id>
+	<entity_id>0xd0</entity_id>
+	<sensor_type>0x03</sensor_type>
+	<entity_instance>0x5</entity_instance>
+</device>
+<device>
+	<name>Centaur Temp 1</name>
+	<dev_name>Temp</dev_name>
+	<sensor_id>101</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0x01</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 5</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>34</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x4</entity_instance>
+</device>
+<device>
+	<name>Centaur Func 3</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>76</sensor_id>
+	<entity_id>0xd1</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 30</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>59</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x1d</entity_instance>
+</device>
+<device>
+	<name>Host Status</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>4</sensor_id>
+	<entity_id>0x23</entity_id>
+	<sensor_type>0x22</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>APSS 11</name>
+	<dev_name>Voltage</dev_name>
+	<sensor_id>171</sensor_id>
+	<entity_id>0xD7</entity_id>
+	<sensor_type>0x02</sensor_type>
+	<entity_instance>10</entity_instance>
+</device>
+<device>
+	<name>DIMM Func 6</name>
+	<dev_name>DIMM_Functioning</dev_name>
+	<sensor_id>35</sensor_id>
+	<entity_id>0x20</entity_id>
+	<sensor_type>0xc</sensor_type>
+	<entity_instance>0x5</entity_instance>
+</device>
+<device>
+	<name>Backplane Fault</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>81</sensor_id>
+	<entity_id>0x7</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>DIMM Freq</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>79</sensor_id>
+	<entity_id>0x8</entity_id>
+	<sensor_type>0xc1</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Func</name>
+	<dev_name>virtual_sensor</dev_name>
+	<sensor_id>78</sensor_id>
+	<entity_id>0x3</entity_id>
+	<sensor_type>0x7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>CPU Core Func 1</name>
+	<dev_name>CPU_Core_Func</dev_name>
+	<sensor_id>62</sensor_id>
+	<entity_id>0xD0</entity_id>
+	<sensor_type>0x07</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
+	<name>PowerMeasure</name>
+	<dev_name>PowerUnit</dev_name>
+	<sensor_id>0xb1</sensor_id>
+	<entity_id>0x13</entity_id>
+	<sensor_type>0x09</sensor_type>
+	<entity_instance>0x1</entity_instance>
+</device>
+</devices>
