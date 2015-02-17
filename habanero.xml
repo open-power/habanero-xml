@@ -2166,7 +2166,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSETS</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
+		<default>-20,-20,-20,0,0,0,0,0,0,0,-20,0,0,0,-20,0 </default>
 	</attribute>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
