@@ -1207,7 +1207,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM11</value>
 	</property>
 	<property>
@@ -1233,7 +1233,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE0</value>
 	</property>
 	<property>
@@ -1287,7 +1287,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM19</value>
 	</property>
 	<property>
@@ -1320,7 +1320,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM21</value>
 	</property>
 	<property>
@@ -1393,7 +1393,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE10</value>
 	</property>
 	<property>
@@ -1415,7 +1415,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM24</value>
 	</property>
 	<property>
@@ -1448,7 +1448,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE1</value>
 	</property>
 	<property>
@@ -1477,7 +1477,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM14</value>
 	</property>
 	<property>
@@ -1496,7 +1496,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM22</value>
 	</property>
 	<property>
@@ -1543,7 +1543,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM0</value>
 	</property>
 	<property>
@@ -1569,7 +1569,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE6</value>
 	</property>
 	<property>
@@ -1591,7 +1591,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM1</value>
 	</property>
 	<property>
@@ -1610,7 +1610,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM20</value>
 	</property>
 	<property>
@@ -1673,7 +1673,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM25</value>
 	</property>
 	<property>
@@ -1717,7 +1717,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM18</value>
 	</property>
 	<property>
@@ -1771,7 +1771,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM31</value>
 	</property>
 	<property>
@@ -1890,7 +1890,7 @@
 	<value>membuf-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>MEMBUF0</value>
 	</property>
 	<property>
@@ -1919,7 +1919,7 @@
 	<value>membuf-1</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>MEMBUF1</value>
 	</property>
 	<property>
@@ -1973,7 +1973,7 @@
 	<value>membuf-2</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>MEMBUF2</value>
 	</property>
 	<property>
@@ -1995,7 +1995,7 @@
 	<value>membuf-3</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>MEMBUF3</value>
 	</property>
 	<property>
@@ -2021,7 +2021,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM10</value>
 	</property>
 	<property>
@@ -2069,7 +2069,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM30</value>
 	</property>
 	<property>
@@ -2088,7 +2088,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM8</value>
 	</property>
 	<property>
@@ -2107,7 +2107,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE5</value>
 	</property>
 	<property>
@@ -2122,7 +2122,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE11</value>
 	</property>
 	<property>
@@ -2155,7 +2155,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE8</value>
 	</property>
 	<property>
@@ -2191,7 +2191,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM12</value>
 	</property>
 	<property>
@@ -2210,7 +2210,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM9</value>
 	</property>
 	<property>
@@ -2243,7 +2243,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM17</value>
 	</property>
 	<property>
@@ -2395,7 +2395,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM7</value>
 	</property>
 	<property>
@@ -2414,7 +2414,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM26</value>
 	</property>
 	<property>
@@ -2512,7 +2512,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE9</value>
 	</property>
 	<property>
@@ -2599,7 +2599,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM6</value>
 	</property>
 	<property>
@@ -2618,7 +2618,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM4</value>
 	</property>
 	<property>
@@ -2846,7 +2846,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM28</value>
 	</property>
 	<property>
@@ -2865,7 +2865,7 @@
 	<value>node-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>PLANAR</value>
 	</property>
 	<property>
@@ -2891,7 +2891,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE2</value>
 	</property>
 	<property>
@@ -2970,7 +2970,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM15</value>
 	</property>
 	<property>
@@ -3003,7 +3003,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE3</value>
 	</property>
 	<property>
@@ -3039,7 +3039,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM23</value>
 	</property>
 	<property>
@@ -3058,7 +3058,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM27</value>
 	</property>
 	<property>
@@ -3109,7 +3109,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM5</value>
 	</property>
 	<property>
@@ -3139,7 +3139,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE7</value>
 	</property>
 	<property>
@@ -3161,7 +3161,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM29</value>
 	</property>
 	<property>
@@ -3251,7 +3251,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM2</value>
 	</property>
 	<property>
@@ -3291,7 +3291,7 @@
 	<value>core-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CORE4</value>
 	</property>
 	<property>
@@ -3342,7 +3342,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM3</value>
 	</property>
 	<property>
@@ -3400,7 +3400,7 @@
 	<value>proc</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CPU0</value>
 	</property>
 	<property>
@@ -3459,7 +3459,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM16</value>
 	</property>
 	<property>
@@ -3478,8 +3478,8 @@
 	<value>sys-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
-	<value></value>
+	<id>FRU_NAME</id>
+	<value>SYS</value>
 	</property>
 	<property>
 	<id>FRU_ID</id>
@@ -3565,7 +3565,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM13</value>
 	</property>
 	<property>
@@ -3683,6 +3683,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>HB_SETTINGS</id>
 		<default>
 				<field><id>traceContinuous</id><value>0</value></field>
@@ -3692,10 +3696,6 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -4063,11 +4063,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_INSTANCE</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>IPMI_INSTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -5917,6 +5917,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FSP_BASE_ADDR</id>
 		<default>0,0x0000000000000000</default>
 	</attribute>
@@ -5934,10 +5938,6 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -6096,11 +6096,11 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_INSTANCE</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>IPMI_INSTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -8764,15 +8764,15 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -9675,15 +9675,15 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -9745,15 +9745,15 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -9815,15 +9815,15 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>400,400,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -9910,11 +9910,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_INSTANCE</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>IPMI_INSTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
