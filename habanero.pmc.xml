@@ -349,7 +349,7 @@
 	<sensor_id>77</sensor_id>
 	<entity_id>0xd1</entity_id>
 	<sensor_type>0xc</sensor_type>
-	<entity_instance>0x0</entity_instance>
+	<entity_instance>0x3</entity_instance>
 </device>
 <device>
 	<name>DIMM Func 32</name>
@@ -1125,7 +1125,7 @@
 	<sensor_id>75</sensor_id>
 	<entity_id>0xd1</entity_id>
 	<sensor_type>0xc</sensor_type>
-	<entity_instance>0x0</entity_instance>
+	<entity_instance>0x1</entity_instance>
 </device>
 <device>
 	<name>Activate Pwr Lt</name>
@@ -1157,7 +1157,7 @@
 	<sensor_id>76</sensor_id>
 	<entity_id>0xd1</entity_id>
 	<sensor_type>0xc</sensor_type>
-	<entity_instance>0x0</entity_instance>
+	<entity_instance>0x2</entity_instance>
 </device>
 <device>
 	<name>CPU Core Temp 8</name>

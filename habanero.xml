@@ -1,5 +1,5 @@
 <targetInstances>
-<version>2.1.0</version>
+<version>1.0</version>
 <enumerationType>
 	<id>DIRECTION</id>
 		<enumerator>
@@ -1435,13 +1435,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/pci_link_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x5B</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0</id>
 	<property>
 	<id>INSTANCE_ID</id>
@@ -1457,10 +1450,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/pci_link_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x5B</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/membuf-3/membuf_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x68</value>
+	<value>0x4D</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1519,7 +1519,7 @@
 	<id>/sys-0/node-0/motherboard-0/membuf-2/membuf_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x67</value>
+	<value>0x4C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1754,7 +1754,7 @@
 	<id>/sys-0/node-0/motherboard-0/membuf-1/membuf_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x66</value>
+	<value>0x4B</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1798,7 +1798,7 @@
 	<id>/sys-0/node-0/motherboard-0/membuf-0/membuf_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x4C</value>
+	<value>0x4A</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -2674,13 +2674,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/ps_derating_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x53</value>
 	</property>
 </globalSetting>
 <globalSetting>

@@ -8,28 +8,28 @@
                   SYS_Power_Cap |        SYS |  0x17  | 0xC2 | 0x58 |    0 |    0 | /sys-0
                  SYS_Boot_count |        SYS |  0x22  | 0xC3 | 0x50 |    0 |    0 | /sys-0
          SYS_Power_Limit_Active |        SYS |  0x15  | 0xC6 | 0x53 |    0 |    0 | /sys-0
-         SYS_PS_Derating_Factor |        SYS |  0x15  | 0xC8 | 0x53 |    0 |    0 | /sys-0
+         SYS_PS_Derating_Factor |        SYS |  0x15  | 0xC8 |  Err |    0 |    0 | /sys-0
                        SYS_Freq |        SYS |  0x08  | 0xC1 | 0x4F |    0 |    0 | /sys-0
              Memory_Proc0_Power |            |  0xD7  | 0xC2 | 0xA1 |    0 |    0 | /sys-0
-             Memory_Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Memory_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Memory_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+             Memory_Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Memory_Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Memory_Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                     Proc0_Power |            |  0xD7  | 0xC2 | 0xA5 |    4 |    0 | /sys-0
-                    Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+                    Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                PCIE_Proc0_Power |            |  0xD7  | 0xC2 | 0xA4 |    3 |    0 | /sys-0
-               PCIE_Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-               PCIE_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-               PCIE_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+               PCIE_Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+               PCIE_Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+               PCIE_Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                      IO_A_Power |            |  0xD7  | 0xC2 | 0xAC |   11 |    0 | /sys-0
                      IO_B_Power |            |  0xD7  | 0xC2 | 0xAD |   12 |    0 | /sys-0
-                     IO_C_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+                     IO_C_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                     Fan_Power_A |            |  0xD7  | 0xC2 | 0xA7 |    6 |    0 | /sys-0
                     Fan_Power_B |            |  0xD7  | 0xC2 | 0xA8 |    7 |    0 | /sys-0
                 Storage_Power_A |            |  0xD7  | 0xC2 | 0xA6 |    5 |    0 | /sys-0
-                Storage_Power_B |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Total_System_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+                Storage_Power_B |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Total_System_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
              Memory_Cache_Power |            |  0xD7  | 0xC2 | 0xAE |   13 |    0 | /sys-0
            Memory_Proc0_0_Power |            |  0xD7  | 0xC2 | 0xA2 |    1 |    0 | /sys-0
            Memory_Proc0_1_Power |            |  0xD7  | 0xC2 | 0xA3 |    2 |    0 | /sys-0
@@ -106,13 +106,13 @@
                      DIMM9_Temp |      DIMM9 |  0x20  | 0x01 | 0x72 |    9 |   12 | /sys-0/node-0/motherboard-0/dimmconn-9/dimm-0
                      DIMM9_Func |      DIMM9 |  0x20  | 0x0C | 0x27 |    9 |   12 | /sys-0/node-0/motherboard-0/dimmconn-9/dimm-0
                    MEMBUF0_Temp |    MEMBUF0 |  0xD1  | 0x01 | 0x65 |    0 |    0 | /sys-0/node-0/motherboard-0/membuf-0
-                   MEMBUF0_Func |    MEMBUF0 |  0xD1  | 0x0C | 0x4C |    0 |    0 | /sys-0/node-0/motherboard-0/membuf-0
+                   MEMBUF0_Func |    MEMBUF0 |  0xD1  | 0x0C | 0x4A |    0 |    0 | /sys-0/node-0/motherboard-0/membuf-0
                    MEMBUF1_Temp |    MEMBUF1 |  0xD1  | 0x01 | 0x66 |    1 |    0 | /sys-0/node-0/motherboard-0/membuf-1
-                   MEMBUF1_Func |    MEMBUF1 |  0xD1  | 0x0C | 0x66 |    1 |    0 | /sys-0/node-0/motherboard-0/membuf-1
+                   MEMBUF1_Func |    MEMBUF1 |  0xD1  | 0x0C | 0x4B |    1 |    0 | /sys-0/node-0/motherboard-0/membuf-1
                    MEMBUF2_Temp |    MEMBUF2 |  0xD1  | 0x01 | 0x67 |    2 |    0 | /sys-0/node-0/motherboard-0/membuf-2
-                   MEMBUF2_Func |    MEMBUF2 |  0xD1  | 0x0C | 0x67 |    2 |    0 | /sys-0/node-0/motherboard-0/membuf-2
+                   MEMBUF2_Func |    MEMBUF2 |  0xD1  | 0x0C | 0x4C |    2 |    0 | /sys-0/node-0/motherboard-0/membuf-2
                    MEMBUF3_Temp |    MEMBUF3 |  0xD1  | 0x01 | 0x68 |    3 |    0 | /sys-0/node-0/motherboard-0/membuf-3
-                   MEMBUF3_Func |    MEMBUF3 |  0xD1  | 0x0C | 0x68 |    3 |    0 | /sys-0/node-0/motherboard-0/membuf-3
+                   MEMBUF3_Func |    MEMBUF3 |  0xD1  | 0x0C | 0x4D |    3 |    0 | /sys-0/node-0/motherboard-0/membuf-3
                       CPU0_Temp |       CPU0 |  0x03  | 0x01 | 0x0B |    0 |    1 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc
                       CPU0_Func |       CPU0 |  0x03  | 0x07 | 0x0C |    0 |    1 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc
                      CORE0_Temp |      CORE0 |  0xD0  | 0x01 | 0x89 |    0 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0
