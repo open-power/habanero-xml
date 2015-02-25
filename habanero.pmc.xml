@@ -924,7 +924,7 @@
 	<name>Checkstop</name>
 	<dev_name>digital_oem</dev_name>
 	<sensor_id>12</sensor_id>
-	<entity_id>0x3</entity_id>
+	<entity_id>0xd9</entity_id>
 	<sensor_type>0x7</sensor_type>
 	<entity_instance>0x0</entity_instance>
 </device>
