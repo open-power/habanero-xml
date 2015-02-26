@@ -1,5 +1,14 @@
 <devices>
 <device>
+	<name>APSS Fault</name>
+	<dev_name>APSS_Fault</dev_name>
+	<sensor_id>87</sensor_id>
+	<entity_id>0xd7</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+
+<device>
 	<name>All PGood</name>
 	<dev_name>digital_oem</dev_name>
 	<sensor_id>28</sensor_id>
