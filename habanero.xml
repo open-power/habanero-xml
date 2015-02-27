@@ -3008,7 +3008,7 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/cpu_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x0C</value>
+	<value>0x4E</value>
 	</property>
 </globalSetting>
 <globalSetting>
