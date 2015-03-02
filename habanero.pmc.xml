@@ -309,7 +309,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>151</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x2</entity_instance>
 </device>
 <device>
@@ -421,7 +421,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>155</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x6</entity_instance>
 </device>
 <device>
@@ -509,7 +509,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>158</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x9</entity_instance>
 </device>
 <device>
@@ -517,7 +517,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>150</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x1</entity_instance>
 </device>
 <device>
@@ -541,7 +541,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>153</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x4</entity_instance>
 </device>
 <device>
@@ -669,7 +669,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>154</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x5</entity_instance>
 </device>
 <device>
@@ -741,7 +741,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>159</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0xa</entity_instance>
 </device>
 <device>
@@ -813,7 +813,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>149</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x0</entity_instance>
 </device>
 <device>
@@ -861,7 +861,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>160</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0xb</entity_instance>
 </device>
 <device>
@@ -997,7 +997,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>156</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x7</entity_instance>
 </device>
 <device>
@@ -1069,7 +1069,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>157</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x8</entity_instance>
 </device>
 <device>
@@ -1125,7 +1125,7 @@
 	<dev_name>Freq</dev_name>
 	<sensor_id>152</sensor_id>
 	<entity_id>0xd0</entity_id>
-	<sensor_type>0x03</sensor_type>
+	<sensor_type>0xC1</sensor_type>
 	<entity_instance>0x3</entity_instance>
 </device>
 <device>
