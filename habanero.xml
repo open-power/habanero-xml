@@ -3965,7 +3965,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
-		<default>96</default>
+		<default>86</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
@@ -3973,11 +3973,11 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>79</default>
+		<default>86</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>89</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_READ_TIMEOUT_SEC</id>
@@ -4013,11 +4013,11 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
-		<default>85</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default>95</default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
@@ -4025,7 +4025,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default>85</default>
+		<default>90</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
