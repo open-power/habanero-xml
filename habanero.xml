@@ -4111,30 +4111,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>PROC_R_DISTLOSS_VCS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDD</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VCS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDD</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VCS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VDD</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_X_BUS_WIDTH</id>
 		<default>2</default>
 	</attribute>
@@ -6156,6 +6132,30 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VCS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VDD</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VCS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VDD</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_VRM_VOFFSET_VCS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_VRM_VOFFSET_VDD</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
