@@ -4856,23 +4856,23 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default>1100</default>
+		<default>900</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>1200</default>
+		<default>1000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
-		<default>500</default>
+		<default>427</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>2400</default>
+		<default>1000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>500</default>
+		<default>427</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
