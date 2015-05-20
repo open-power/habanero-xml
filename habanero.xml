@@ -4764,7 +4764,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default>5625</default>
+		<default>7500</default>
 	</attribute>
 	<attribute>
 		<id>MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
