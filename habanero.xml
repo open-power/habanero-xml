@@ -4581,7 +4581,7 @@
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>APSS_GPIO_PORT_MODES</id>
@@ -4804,7 +4804,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default></default>
+		<default>0xE</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MBA_ADDR_INTERLEAVE_BIT</id>
