@@ -1247,6 +1247,10 @@
 	<value>CORE0</value>
 	</property>
 	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>0</value>
 	</property>
@@ -1597,6 +1601,10 @@
 	<value>CORE10</value>
 	</property>
 	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>10</value>
 	</property>
@@ -1661,6 +1669,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE1</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -1822,6 +1834,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE6</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2615,6 +2631,10 @@
 	<value>CORE5</value>
 	</property>
 	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>5</value>
 	</property>
@@ -2628,6 +2648,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE11</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2661,6 +2685,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE8</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3166,6 +3194,10 @@
 	<value>CORE9</value>
 	</property>
 	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>9</value>
 	</property>
@@ -3603,6 +3635,10 @@
 	<value>CORE2</value>
 	</property>
 	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>2</value>
 	</property>
@@ -3752,6 +3788,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE3</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3936,6 +3976,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE7</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4131,6 +4175,10 @@
 	<property>
 	<id>FRU_NAME</id>
 	<value>CORE4</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
