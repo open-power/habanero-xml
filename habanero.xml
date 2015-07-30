@@ -13930,7 +13930,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>-20</default>
+		<default>-23</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -14218,7 +14218,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -14230,7 +14230,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-33</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -14518,7 +14518,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -14530,7 +14530,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-33</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -14818,7 +14818,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -14830,7 +14830,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-23</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -14893,7 +14893,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -14905,7 +14905,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-31</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15043,7 +15043,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -15055,7 +15055,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-34</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15118,7 +15118,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -15130,7 +15130,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-25</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15193,7 +15193,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>33500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -15205,7 +15205,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-34</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15418,7 +15418,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>32000</default>
+		<default>34500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -15430,7 +15430,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-31</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15505,7 +15505,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>-20</default>
+		<default>-33</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15580,7 +15580,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>-20</default>
+		<default>-31</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15643,7 +15643,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>34500</default>
+		<default>35000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -15655,7 +15655,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>-20</default>
+		<default>-31</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15730,7 +15730,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-13</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15805,7 +15805,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-13</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -15880,7 +15880,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>-20</default>
+		<default>-33</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
