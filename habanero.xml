@@ -2333,7 +2333,7 @@
 	</property>
 	<property>
 	<id>FRU_ID</id>
-	<value>2</value>
+	<value>42</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2370,7 +2370,7 @@
 	</property>
 	<property>
 	<id>FRU_ID</id>
-	<value>2</value>
+	<value>42</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2439,7 +2439,7 @@
 	</property>
 	<property>
 	<id>FRU_ID</id>
-	<value>2</value>
+	<value>42</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2476,7 +2476,7 @@
 	</property>
 	<property>
 	<id>FRU_ID</id>
-	<value>2</value>
+	<value>42</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
