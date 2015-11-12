@@ -4775,6 +4775,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
+		<default>0x07</default>
+	</attribute>
+	<attribute>
 		<id>APSS_GPIO_PORT_MODES</id>
 		<default>0x0,0x3</default>
 	</attribute>
