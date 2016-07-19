@@ -4971,7 +4971,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_ENHANCED_GROUPING_NO_MIRRORING</id>
-		<default>true</default>
+		<default>false</default>
 	</attribute>
 	<attribute>
 		<id>MRW_MAX_DRAM_DATABUS_UTIL</id>
