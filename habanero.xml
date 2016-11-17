@@ -2203,13 +2203,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/power_cap_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x58</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-11</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
